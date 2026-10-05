@@ -1,66 +1,59 @@
 # 🛰️ Spatial Apartheid: Quantifying Bengaluru's Educational Divide
 
-**An AI and Geospatial Analytics project analyzing the true walking distance to public primary schools across formal and informal urban settlements.**
+**An open, reproducible geospatial pipeline auditing the Right to Education (RTE) walking-distance compliance in Bengaluru's formal and informal settlements.**
+
+**Authors:** Kaveri Sharma, Vedika Chhabra, Jahnvi R, Manasa Ranganath, Komal Kumari, Dr. Divyashree N (PES University)
 
 ---
 
 ## 📌 Executive Summary
-The Indian **Right to Education (RTE) Act** mandates that every child must have a primary school within a **1 km walking distance**. This project utilizes satellite imagery, machine learning, and massive-scale graph routing to audit Bengaluru's compliance with this mandate. 
+The Indian **Right to Education (RTE) Act** mandates a government primary school within a **1 km walking distance** of every child's habitation. Compliance is usually audited using outdated census frames and straight-line buffers, which ignore informal settlements and actual street networks. 
 
-**Our Initial Hypothesis:** Unmapped, informal settlements (slums) are "Education Deserts" cut off from public infrastructure.
-**The Data-Driven Reality:** The exact opposite.
+This project uses Sentinel-2 satellite imagery, OSM network data, the KSDB slum register, and WorldPop population estimates to audit true walking-distance compliance at scale.
 
-Through spatial analysis of over 300,000 streets, we discovered a profound **two-tiered segregation** in the city's education grid. Informal settlements are highly clustered around government schools (0.41 km average walk). In contrast, planned, wealthy layouts have completely abandoned the public grid (1.24 km average walk), relying entirely on a shadow network of private institutions. 
+**Key Findings:**
+- **City-wide Compliance Gap:** Only **17.3%** of sampled locations and **20.1%** of slum residents lie within a 1 km walk of a government school.
+- **The "Crow-Flies Fallacy":** Traditional straight-line buffers massively overstate compliance. About 48.2% of locations that appear compliant by a straight line are non-compliant by actual street network distance.
+- **Formal vs. Informal:** Planned layouts are slightly farther from government schools on average than informal areas (2.32 km vs. 2.10 km), though the effect size is negligible. Both groups face long walking distances.
+- **The Invisible Burden:** Non-notified slums (unrecognized by the state) are significantly farther from government schools (2.40 km) than notified slums (1.71 km). 
+- **Concentrated Demand:** The ten most-loaded government schools serve as the nearest public option for 71.5% of all slum residents.
 
-**The real Spatial Apartheid is not about physical distance; it is the systemic geographic isolation of public vs. private education.**
+While 71–76% of locations lie within 1 km of *some* school (mostly private), free government options remain highly inaccessible by foot.
 
 ---
 
 ## 🛠️ Tech Stack & Methodology
 
-This project moves beyond "As the Crow Flies" radius mapping by calculating true, street-level pedestrian routing. 
+Our pipeline ("Map → Detect → Measure → Weigh") moves beyond basic radius mapping:
 
-1. **Satellite Feature Engineering (Google Earth Engine):**
-   * Pulled cloud-free Sentinel-2 Surface Reflectance Data.
-   * Engineered spectral indices: **NDVI** (Vegetation) and **NDBI** (Built-up/Concrete).
-2. **AI Image Classification (Machine Learning):**
-   * Trained a **Random Forest Classifier (10 Trees)** directly on the satellite bands to segment the city into "Planned Grids" vs. "Informal Settlements."
-   * Deployed 2,000 "virtual students" (coordinate points) into the classified zones for sampling.
-3. **Open Data Ingestion (OpenStreetMap):**
-   * Extracted the entire walkable street network of Bengaluru (300,000+ edges) using `OSMnx`.
-   * Filtered OpenStreetMap POI data strictly for **Government Primary Schools** to match the state mandate.
-4. **Massive-Scale Spatial Routing (NetworkX):**
-   * Utilized **Multi-Source Dijkstra's Algorithm** to simultaneously flood the street graph from all 482 public schools, calculating the exact minimum walking distance to every sampled student coordinate in seconds.
-
----
-
-## 📊 The Findings: The Public-Private Divide
-
-<img width="2930" height="1545" alt="spatial_divide_chart" src="https://github.com/user-attachments/assets/d6feb351-799b-4329-a871-f9fceef6f71e" /> 
-
-**Results:**
-* **Informal Settlements (Unmapped Zones):** `0.41 km` average walk. (Highly Compliant)
-* **Planned Layouts (Formal Grids):** `1.24 km` average walk. (Non-Compliant)
-
-**Conclusion:** The data proves that the government does not build public primary schools in wealthy, planned layouts because the residents there utilize private schools. As a result, public infrastructure is historically and systematically isolated within or adjacent to low-income and informal settlements. 
+1. **Map (Data Ingestion):**
+   * Sentinel-2 L2A (10m multispectral imagery via Google Earth Engine).
+   * OpenStreetMap (OSM) pedestrian graph (186,595 nodes, 499,950 edges) using `OSMnx`.
+   * Curated OSM school features and Karnataka Slum Development Board (KSDB) slum polygons.
+2. **Detect (AI Classification):**
+   * Computed NDVI (Vegetation) and NDBI (Built-up) spectral indices.
+   * Trained a **Random Forest Classifier** to segment planned grids vs. informal settlements, generating "virtual student" sample locations.
+3. **Measure (Spatial Routing):**
+   * NetworkX-powered **Labelled Multi-Source Dijkstra's Algorithm**.
+   * Constructs a network Voronoi partition in seconds, returning both the exact walking distance and the assigned catchment school for every point on the graph.
+4. **Weigh (Population Dynamics):**
+   * Integrated WorldPop 2020 gridded estimates to compute population-weighted distances for all 509 KSDB slums and measure catchment loads ($\Lambda_s$) per school.
 
 ---
 
 ## 📂 Repository Structure
 
-* `Spatial_Apartheid_Phase1.ipynb`: The core Google Colab / Jupyter Notebook containing the entire end-to-end data pipeline, from Earth Engine authentication to NetworkX routing.
-* `spatial_divide_chart.png`: The final Matplotlib/Seaborn visualization of the walking distance disparity.
-* *(Note: The raw `.graphml` street network and Sentinel-2 satellite outputs are dynamically generated via API in the notebook and are not hosted here due to file size constraints).*
+* `data/`: Contains geojson, shapefiles, KMLs, and other raw data (excluding large caching and graph files).
+* `notebooks/`: Contains the core `Spatial_Apartheid_Phase1.ipynb` notebook detailing the end-to-end data pipeline.
+* `scripts/`: Python scripts for analysis, processing, and visualization plotting.
+* `results/`: Contains the generated catchment maps, vulnerability maps, charts, and statistical tables.
+* `manuscript/`: Contains the LaTeX source code and PDF for the IEEE conference manuscript.
 
 ---
 
 ## 🚀 How to Run the Code
 
-To reproduce this research:
-1. Open `Spatial_Apartheid_Phase1.ipynb` in **Google Colab**.
-2. You will need a registered, non-commercial **Google Earth Engine** account. 
-3. Run the authentication cell to link your Google Cloud Project.
-4. Execute the cells sequentially. The notebook will automatically query OpenStreetMap and Google Earth Engine servers to build the datasets live.
-
----
-*Developed by Kaveri & Vedika for AMD Slingshot.*
+1. Clone the repository and install required Python packages (`osmnx`, `geopandas`, `networkx`, `earthengine-api`, etc.).
+2. You will need a registered **Google Earth Engine** account to pull Sentinel-2 satellite data.
+3. Open `notebooks/Spatial_Apartheid_Phase1.ipynb` to run the data pipeline. Follow the authentication prompts to link your Google Cloud Project.
+4. You can also run the analysis directly using the scripts in the `scripts/` folder (e.g., `python scripts/paper_analysis.py`).
