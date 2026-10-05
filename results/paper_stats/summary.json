@@ -1,0 +1,180 @@
+{
+  "graph": {
+    "nodes": 186595,
+    "edges": 499950,
+    "edge_km_directed": 30504.77954989011,
+    "mean_edge_m": 61.01566066584681,
+    "median_edge_m": 40.36993952329503
+  },
+  "schools": {
+    "all_osm_schools": 1464,
+    "all_polygon": 886,
+    "all_point": 578,
+    "all_unnamed": 202,
+    "broad": 271,
+    "broad_public_only": 125,
+    "broad_no_keyword": 150,
+    "keyword_any": 121,
+    "address_suffix_only": 3,
+    "colleges_excluded": 7,
+    "curated": 111,
+    "curated_primary_named": 49
+  },
+  "classifier_agreement": {
+    "informal_n": 364,
+    "formal_n": 636,
+    "informal_inside_pct": 1.9230769230769231,
+    "formal_inside_pct": 0.7861635220125787,
+    "informal_within100_pct": 6.868131868131869,
+    "formal_within100_pct": 6.132075471698113,
+    "informal_within250_pct": 15.934065934065933,
+    "formal_within250_pct": 16.352201257861633,
+    "informal_within500_pct": 41.208791208791204,
+    "formal_within500_pct": 39.62264150943396
+  },
+  "slum_inputs": {
+    "n": 509,
+    "total_pop": 226753.16484245085,
+    "median_area_ha": 1.248700877791235,
+    "median_pop": 127.29524932375143,
+    "median_density_per_ha": 186.91561369381012,
+    "notified": 192,
+    "non_notified": 317,
+    "zones": 8
+  },
+  "nongovt_proximity": {
+    "Formal": {
+      "n": 636,
+      "mean": 858.303539433291,
+      "sd": 885.0786004889001,
+      "median": 690.7176935717121,
+      "q1": 391.32618868235636,
+      "q3": 1123.055808403158,
+      "p90": 1642.7694243060705,
+      "min": 0.0,
+      "max": 10404.704897576183,
+      "pct_le_1km": 71.22641509433963,
+      "pct_gt_2km": 5.345911949685535
+    },
+    "Informal": {
+      "n": 364,
+      "mean": 756.6549234282369,
+      "sd": 584.9504338521314,
+      "median": 597.9957429696451,
+      "q1": 346.8193584874766,
+      "q3": 962.5757161817306,
+      "p90": 1465.4781522651497,
+      "min": 0.0,
+      "max": 3746.323083899537,
+      "pct_le_1km": 76.37362637362637,
+      "pct_gt_2km": 4.670329670329671
+    },
+    "n_schools": 1353
+  },
+  "sample_snap_median_m": {
+    "formal": 37.64452548187405,
+    "informal": 46.99567676162045
+  },
+  "slum_snap_median_m": 22.032917954411403,
+  "curated": {
+    "n_schools": 111,
+    "snap_median_m": 28.846359143141303,
+    "tests": {
+      "mean_formal": 2318.0012637144396,
+      "mean_informal": 2098.47644298187,
+      "mean_diff_m": 219.52482073256942,
+      "boot_ci_low": 41.13951124078515,
+      "boot_ci_high": 382.40517384773267,
+      "mannwhitney_U": 123119.5,
+      "mannwhitney_p": 0.0936542467992554,
+      "cliffs_delta": 0.06364900822447983,
+      "ks_D": 0.07156679798189236,
+      "ks_p": 0.17566291655506963,
+      "chi2": 0.6190172112541055,
+      "chi2_p": 0.4314127309712076,
+      "spearman_net_euclid": 0.9255653563807084,
+      "crowflies_compliant_pct": 33.0,
+      "network_compliant_pct": 17.299999999999997,
+      "false_compliant_pct": 15.9,
+      "false_compliant_share_of_crowflies_pct": 48.18181818181818
+    },
+    "slums": {
+      "slums": 509.0,
+      "population": 226753.16484245085,
+      "median_dist_m": 1723.2196080907488,
+      "pop_weighted_dist_m": 2023.0914542477058,
+      "pct_slums_le_1km": 27.70137524557957,
+      "pct_pop_le_1km": 20.097709239953275,
+      "mean_dist_m": 1891.874907863906,
+      "pct_slums_gt_2km": 39.09626719056975,
+      "spearman_pop_dist": 0.06436201003088586,
+      "spearman_pop_dist_p": 0.14705661776123521,
+      "spearman_density_dist": -0.023989133984428333,
+      "spearman_density_dist_p": 0.589220057292799,
+      "notified_U": 38175.0,
+      "notified_p": 1.4793505376148913e-06,
+      "notified_cliffs": 0.254436119873817
+    },
+    "catchment": {
+      "schools": 111,
+      "with_slum_catchment": 81,
+      "without": 30,
+      "median_load_served": 179.03753554400276,
+      "mean_load_served": 2799.4217881784057,
+      "max_load": 28193.492676515205,
+      "top10_share_pct": 71.51771686013925,
+      "gini": 0.8533470805260328
+    }
+  },
+  "broad": {
+    "n_schools": 271,
+    "snap_median_m": 32.43890756185581,
+    "tests": {
+      "mean_formal": 1547.7331449468106,
+      "mean_informal": 1350.720077734226,
+      "mean_diff_m": 197.0130672125847,
+      "boot_ci_low": 81.03488527936989,
+      "boot_ci_high": 314.3974303350353,
+      "mannwhitney_U": 128255.0,
+      "mannwhitney_p": 0.00444031878647238,
+      "cliffs_delta": 0.10801541226069533,
+      "ks_D": 0.09136775174511025,
+      "ks_p": 0.038751110455692975,
+      "chi2": 5.471028901470065,
+      "chi2_p": 0.01933423978340247,
+      "spearman_net_euclid": 0.8748813899818565,
+      "crowflies_compliant_pct": 58.9,
+      "network_compliant_pct": 35.3,
+      "false_compliant_pct": 24.4,
+      "false_compliant_share_of_crowflies_pct": 41.426146010186756
+    },
+    "slums": {
+      "slums": 509.0,
+      "population": 226753.16484245085,
+      "median_dist_m": 1102.8682876637608,
+      "pop_weighted_dist_m": 1330.621126698514,
+      "pct_slums_le_1km": 45.77603143418468,
+      "pct_pop_le_1km": 39.207446135322314,
+      "mean_dist_m": 1188.531534867708,
+      "pct_slums_gt_2km": 11.591355599214145,
+      "spearman_pop_dist": 0.04843289275207829,
+      "spearman_pop_dist_p": 0.2754271260410727,
+      "spearman_density_dist": -0.014754841034811308,
+      "spearman_density_dist_p": 0.7398257984274332,
+      "notified_U": 35316.5,
+      "notified_p": 0.0023918834211870982,
+      "notified_cliffs": 0.16050538906414302
+    },
+    "catchment": {
+      "schools": 271,
+      "with_slum_catchment": 168,
+      "without": 103,
+      "median_load_served": 200.04681040445962,
+      "mean_load_served": 1349.721219300303,
+      "max_load": 19626.667731909656,
+      "top10_share_pct": 47.64670922003143,
+      "gini": 0.866456650109286
+    }
+  },
+  "runtime_s": 22.871161699295044
+}

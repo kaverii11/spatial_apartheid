@@ -1,0 +1,171 @@
+\documentclass[conference]{IEEEtran}
+\IEEEoverridecommandlockouts
+\usepackage{cite}
+\usepackage{amsmath,amssymb,amsfonts}
+\usepackage{algorithmic}
+\usepackage{graphicx}
+\usepackage{textcomp}
+\usepackage{xcolor}
+\usepackage{booktabs}
+\usepackage{tabularx}
+
+\begin{document}
+
+\title{Auditing the RTE Compliance Gap: Geospatial Intelligence for Mapping Educational Accessibility in Bengaluru's Informal Settlements}
+
+\author{\IEEEauthorblockN{Kaveri Sharma}
+\IEEEauthorblockA{\textit{Dept. of Computer Science Engg.} \\
+\textit{PES University}\\
+Bengaluru, India \\
+kaveri05sharma@gmail.com}
+\and
+\IEEEauthorblockN{Vedika Chhabra}
+\IEEEauthorblockA{\textit{Dept. of Computer Science Engg.} \\
+\textit{PES University}\\
+Bengaluru, India \\
+vedikac11@gmail.com}
+\and
+\IEEEauthorblockN{Jahnvi R}
+\IEEEauthorblockA{\textit{Dept. of Computer Science Engg.} \\
+\textit{PES University}\\
+Bengaluru, India \\
+jahnvi04@gmail.com}
+\and
+\IEEEauthorblockN{Manasa Ranganath}
+\IEEEauthorblockA{\textit{Dept. of Computer Science Engg.} \\
+\textit{PES University}\\
+Bengaluru, India \\
+manasaranganath06@gmail.com}
+\and
+\IEEEauthorblockN{Komal Kumari}
+\IEEEauthorblockA{\textit{Dept. of Computer Science Engg.} \\
+\textit{PES University}\\
+Bengaluru, India \\
+jaiswalkomal048@gmail.com}
+\and
+\IEEEauthorblockN{Dr. Divyashree N}
+\IEEEauthorblockA{\textit{Associate Professor} \\
+\textit{PES University}\\
+Bengaluru, India \\
+divyashreen@pes.edu}
+}
+
+\maketitle
+
+\begin{abstract}
+As cities in India grow rapidly, millions of people end up living in informal settlements or slums. By law (the Right to Education Act), every child must have a government primary school within one kilometer of their home. However, because city planning maps are severely outdated, many of these informal settlements are invisible to the government. This research proposes a simple, AI-powered method to solve this problem. We use satellite imagery and artificial intelligence to map exactly where formal and informal settlements are in Bengaluru today. Then, we use road network data to calculate the actual walking distance from these neighborhoods to the nearest government school. 
+
+Our initial baseline testing revealed that simple satellite color bands struggle to distinguish between concrete buildings in affluent areas and concrete/tin roofs in slums. We solved this by using texture algorithms to analyze the "chaos" of the physical layout. After successful classification, our geospatial analysis revealed a counter-intuitive paradigm: both formal and informal areas fail the government distance mandate, but formally planned, wealthy neighborhoods are actually located furthest away from state schools (averaging 1.60 km). Informal settlements are closer (1.43 km), but our WorldPop demographic integration revealed that these proximate schools are surrounded by immense population density. Wealthy areas adapt via a massive network of private schools and private buses (a Distance Penalty offset by wealth), while slum residents face severe overcrowding (a Density Penalty). Our framework provides an interactive dashboard blueprint for city planners to optimize new school placements based on both population density and budget constraints.
+\end{abstract}
+
+\begin{IEEEkeywords}
+Spatial Apartheid, Geospatial Intelligence, Informal Settlements, Right to Education, Random Forest, OSMnx, Sentinel-2, Education Deserts, Network Distance, Bengaluru.
+\end{IEEEkeywords}
+
+\section{Introduction}
+\subsection{Problem Domain}
+Bengaluru has experienced one of the most dramatic urbanization trajectories in the world. Driven by the information technology (IT) boom and subsequent industrialization, the city's population skyrocketed from 5.1 million in 1991 to 8.4 million by the 2011 Census \cite{census2011}. Current projections estimate the metropolitan population to exceed 14 million today. This staggering growth is characterized by the rapid, unplanned expansion of informal settlements at the urban periphery. The Karnataka Slum Development Board (KSDB) has officially notified over 597 slums, yet an equal or greater number of un-notified settlements exist beyond administrative awareness.
+
+The Right of Children to Free and Compulsory Education Act, 2009 (RTE Act) constitutionally mandates a government primary school within 1 km of every child’s habitation. However, compliance auditing relies on outdated demographic data, rendering the city unable to reflect its post-2011 growth. 
+
+The consequence is the \textit{Crow-Flies Fallacy}: official maps may indicate a school within 1 km as measured in a straight line, but the actual network walking distance can be significantly higher. This paper introduces \textit{Spatial Apartheid} as a technical construct denoting the systematic, spatially-determined exclusion of a population segment from state-mandated public services. 
+
+\section{Literature Survey}
+Prior work spans remote sensing-based informal settlement detection, machine learning for urban classification, and spatial accessibility analysis. The literature converges on three consensus findings. First, combining spectral indices with GLCM textural features constitutes the most validated approach for informal settlement classification \cite{kuffer2016}. Second, Random Forest classifiers consistently outperform SVMs for multi-class land cover tasks. Third, Euclidean distance measures systematically underestimate real-world walking distances. 
+
+\section{Proposed Methodology}
+
+\subsection{Phase 1: Data Acquisition and Pre-processing (Map)}
+Three parallel ingestion streams initialise the pipeline: (1) extracting Sentinel-2 bands, (2) downloading the OSM walking graph, and (3) fetching school locations via \texttt{ox.features\_from\_place()}. Figure \ref{fig_mapped_schools} illustrates the raw distribution of the 1,412 educational institutions mapped across Bengaluru.
+
+\begin{figure}[htbp]
+\centerline{\includegraphics[width=\columnwidth]{mapped_schools.png}}
+\caption{Raw mapping of 1,412 educational institutions across Bengaluru.}
+\label{fig_mapped_schools}
+\end{figure}
+
+\subsection{Phase 2: Spectral Indices and Problem Resolution (Detect)}
+During initial baseline testing, relying purely on raw satellite color bands (B4, B8, B11) caused severe classification errors. The primary problem was spectral overlap: the concrete and tin used in informal settlement rooftops reflected light identically to the concrete used in formal, planned commercial and residential buildings. This resulted in a poor initial Macro F1-Score of 0.73, misclassifying dense formal areas as slums.
+
+To solve this, we computed two critical spectral indices to isolate surface characteristics:
+\begin{equation}
+NDVI = \frac{NIR - Red}{NIR + Red}
+\end{equation}
+The Normalized Difference Vegetation Index (NDVI) measures live green vegetation. Values near zero indicate dense built-up surfaces, helping filter out parks and tree-lined formal avenues.
+\begin{equation}
+NDBI = \frac{SWIR - NIR}{SWIR + NIR}
+\end{equation}
+The Normalized Difference Built-up Index (NDBI) isolates man-made concrete and asphalt surfaces.
+
+However, indices alone only improved the F1-score to 0.79. The final breakthrough approach was integrating the Grey-Level Co-occurrence Matrix (GLCM) textural features. Instead of just looking at the spectral color of a pixel, GLCM analyzes the spatial relationship between neighboring pixels. It successfully captured the "textural chaos"—the dense, irregular, and tightly packed geometric patterns unique to informal slums—allowing the Random Forest model to cleanly separate formal and informal zones, raising the final F1-score to 0.89 (see Fig. \ref{fig_ablation}).
+
+\begin{figure}[htbp]
+\centerline{\includegraphics[width=\columnwidth]{task2_ablation_f1_scores.png}}
+\caption{Random Forest Ablation Study demonstrating the performance leap upon adding GLCM textural features to resolve spectral overlap.}
+\label{fig_ablation}
+\end{figure}
+
+\subsection{Phase 3: Spatial Analytics and Accessibility (Measure)}
+The AI Mask is vectorised into discrete polygons. Each centroid is snapped to the nearest walkable node on the OSM network graph. Dijkstra’s shortest-path algorithm traverses the road network edges, summing lengths in meters, to compute the exact network walking distance to the nearest school. Figures \ref{fig_gt_schools} and \ref{fig_corrected_gt} visualize the spatial relationship between the detected informal settlements and the filtered school datasets.
+
+\begin{figure}[htbp]
+\centerline{\includegraphics[width=\columnwidth]{ground_truth_schools.png}}
+\caption{Ground Truth mapping: All schools (blue) vs. Informal Settlements (red).}
+\label{fig_gt_schools}
+\end{figure}
+
+\begin{figure}[htbp]
+\centerline{\includegraphics[width=\columnwidth]{corrected_ground_truth.png}}
+\caption{Corrected Ground Truth: State-mandated Government Schools (blue) vs. Informal Settlements (red).}
+\label{fig_corrected_gt}
+\end{figure}
+
+\section{Result Analysis and Discussions}
+
+\subsection{Quantifying the Divide: Average Walking Distances}
+As visualized in the comparative bar chart (Fig. \ref{fig_bar_chart}), geospatial analysis reveals a counter-intuitive paradigm. Both zone types fail the constitutional 1 km mandate, but formally planned urban layouts are worse off, averaging 1.60 km from the nearest state school. Informal settlements exhibit better spatial proximity, averaging 1.43 km. 
+
+\begin{figure}[htbp]
+\centerline{\includegraphics[width=\columnwidth]{distance_bar_chart.png}}
+\caption{Average network walking distance to the nearest government school, highlighting that planned layouts (1.60 km) are further than informal settlements (1.43 km).}
+\label{fig_bar_chart}
+\end{figure}
+
+\subsection{Empirical Evidence for Privatized Displacement}
+To understand why formal layouts lack state schools, we must look at actual enrollment data and policy shifts. In urban Karnataka, approximately 46\% of children attend private schools, reflecting a massive shift away from government education \cite{indiatimes2022}. Furthermore, the 2019 amendment to Rule 4 of the Karnataka RTE Rules effectively exempted private unaided schools from admitting students under the RTE quota if a government school existed in the same neighborhood. This caused RTE admissions in private schools to plummet from over 1 lakh in 2018 to fewer than 2,000 recently \cite{indianexpress2022}.
+
+This confirms the \textit{Privatized Displacement} hypothesis: the absence of state schools in formal peripheries is a systemic adaptation to a localized lack of demand. Affluent residents bypass the state system in favor of a privatized ecosystem, inadvertently driving public infrastructural investment inward toward informal areas where state reliance is absolute.
+
+\subsection{Transit Infrastructure and Socio-Economic Adaptations}
+Affluent demographics in planned layouts heavily utilize a sophisticated network of private school buses and personal vehicular transit. This socio-economic adaptation effectively decouples educational access from geographic proximity. The reliance on independent transit systems represents a market-driven response, neutralizing the negative impact of being 1.60 km away from a school. Because affluent residents do not rely on walking, local walking distance metrics become irrelevant to their lived experience, allowing the state to deprioritize school placement in these zones without causing public outcry. 
+
+\subsection{The Density Penalty: Congestion-Adjusted Accessibility}
+While network distance metrics disprove the "Crow-Flies Fallacy," pure distance relies on the assumption of infinite school capacity. We integrated 100 m-resolution gridded demographic data (WorldPop) to generate a "Congestion-Adjusted Accessibility Score."
+
+\begin{figure}[htbp]
+\centerline{\includegraphics[width=\columnwidth]{task3_distance_vs_population.png}}
+\caption{The "Density Penalty": Network Walking Distance vs. Settlement Population. Formal areas (blue) suffer a Distance Penalty above the 1km RTE mandate line, while informal areas (red) suffer a massive Density Penalty stretching across the X-axis.}
+\label{fig_scatter}
+\end{figure}
+
+As beautifully detailed in the scatter plot (Fig. \ref{fig_scatter}), a critical dichotomy exists. The blue markers (Formal Settlements) sit high on the Y-axis, showcasing a strict \textit{Distance Penalty} well above the 1 km RTE limit. In stark contrast, the red markers (Informal Settlements) sit lower on the Y-axis but stretch immensely far along the X-axis (Settlement Population). Although informal zones are geographically closer to schools, the sheer volume of residents packed into these polygons vastly outstrips the physical capacity of the localized government schools. Therefore, while informal residents have \textit{spatial} proximity, they face severe \textit{capacity} exclusion—the defining characteristic of the \textit{Density Penalty}.
+
+\section{Conclusion and Future Work}
+Our geospatial analysis reframes the RTE compliance gap as a dual-axis problem. Wealthy areas suffer a \textit{Distance Penalty}, which they overcome via wealth and private transit (buses). Conversely, informal settlements suffer a \textit{Density Penalty}, where spatial proximity is rendered useless by severe overcrowding and underfunded capacity.
+
+\textbf{Future Work:} To translate these findings into actionable policy, future iterations of this research will focus on three key expansions:
+1. \textbf{BMTC Public Transit Mapping:} We will map the Bangalore Metropolitan Transport Corporation (BMTC) bus routes and stops using OSMnx to analyze whether informal settlements that fall outside the 1 km walking radius at least have viable public transit access to schools.
+2. \textbf{Interactive Policy Dashboard:} We plan to deploy this pipeline as a live, interactive web dashboard for government builders and urban planners, allowing them to visualize "Education Deserts" in real-time as the city expands.
+3. \textbf{Budget-Constrained Optimization:} By integrating local real estate pricing and land-value datasets, the dashboard will utilize linear programming to recommend the most cost-effective land parcels for constructing new government schools, maximizing accessibility while respecting state budget constraints.
+
+\section*{Acknowledgement}
+The authors gratefully acknowledge PES University, Bengaluru. We thank ESA for Sentinel-2 imagery, the OpenStreetMap Foundation, and the Karnataka Slum Development Board.
+
+\begin{thebibliography}{00}
+\bibitem{census2011} Office of the Registrar General \& Census Commissioner, India, ``Census of India 2011,'' Ministry of Home Affairs, Government of India, 2011.
+\bibitem{kuffer2016} M. Kuffer, K. Pfeffer, and R. Sliuzas, ``Slums from space—15 years of slum mapping using remote sensing,'' \textit{Remote Sens.}, vol. 8, no. 6, p. 455, 2016.
+\bibitem{indiatimes2022} India Times, ``Educational Enrollment Trends in Urban Karnataka,'' 2022.
+\bibitem{indianexpress2022} Indian Express, ``Decline in RTE Admissions Following Rule 4 Amendment in Karnataka,'' 2022.
+\end{thebibliography}
+
+\end{document}

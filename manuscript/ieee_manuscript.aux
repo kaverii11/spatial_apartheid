@@ -1,0 +1,214 @@
+\relax 
+\citation{census2011}
+\citation{unhabitat2003}
+\citation{rte2009}
+\citation{rterules2010}
+\citation{drusch2012}
+\citation{gorelick2017}
+\citation{boeing2017}
+\citation{tatem2017}
+\@writefile{toc}{\contentsline {section}{\numberline {I}Introduction}{1}{}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {\mbox  {I-A}}Problem Domain}{1}{}\protected@file@percent }
+\citation{erwig2000,okabe2008}
+\citation{kuffer2016}
+\citation{kohli2012}
+\citation{mahabir2018}
+\citation{duque2015}
+\citation{haralick1973}
+\citation{wurm2019}
+\citation{breiman2001}
+\citation{belgiu2016}
+\citation{tucker1979}
+\citation{zha2003}
+\citation{talen1998}
+\citation{luo2003}
+\citation{radke2000}
+\citation{boeing2017}
+\citation{hagberg2008}
+\citation{dijkstra1959}
+\citation{erwig2000}
+\citation{okabe2008}
+\citation{haklay2010}
+\citation{barrington2017}
+\citation{kingdon2020}
+\citation{muralidharan2015}
+\@writefile{toc}{\contentsline {subsection}{\numberline {\mbox  {I-B}}Motivation}{2}{}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {\mbox  {I-C}}Contributions}{2}{}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {\mbox  {I-D}}Paper Organisation}{2}{}\protected@file@percent }
+\@writefile{toc}{\contentsline {section}{\numberline {II}Literature Survey}{2}{}\protected@file@percent }
+\newlabel{sec:lit}{{II}{2}{}{section.2}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {\mbox  {II-A}}Remote Sensing of Informal Settlements}{2}{}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {\mbox  {II-B}}Classifiers and Spectral Indices}{2}{}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {\mbox  {II-C}}Spatial Accessibility Measurement}{2}{}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {\mbox  {II-D}}Open Data Quality}{2}{}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {\mbox  {II-E}}Private Schooling in Urban India}{2}{}\protected@file@percent }
+\citation{kuffer2016}
+\citation{kohli2012}
+\citation{duque2015}
+\citation{wurm2019}
+\citation{talen1998}
+\citation{luo2003}
+\citation{boeing2017}
+\citation{drusch2012}
+\citation{boeing2017}
+\citation{tatem2017}
+\@writefile{lot}{\contentsline {table}{\numberline {I}{\ignorespaces Comparison of Related Work}}{3}{}\protected@file@percent }
+\newlabel{tab:lit}{{I}{3}{}{table.1}{}}
+\@writefile{lot}{\contentsline {table}{\numberline {II}{\ignorespaces Datasets Used}}{3}{}\protected@file@percent }
+\newlabel{tab:data}{{II}{3}{}{table.2}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {\mbox  {II-F}}Research Gap}{3}{}\protected@file@percent }
+\@writefile{toc}{\contentsline {section}{\numberline {III}Study Area and Data}{3}{}\protected@file@percent }
+\newlabel{sec:data}{{III}{3}{}{section.3}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {\mbox  {III-A}}Study Area}{3}{}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {\mbox  {III-B}}Datasets}{3}{}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {\mbox  {III-C}}School Data and the Government-School Definition}{3}{}\protected@file@percent }
+\@writefile{lof}{\contentsline {figure}{\numberline {1}{\ignorespaces Study area. KSDB slum polygons (yellow), Random Forest sample locations classified as planned (blue squares) and informal (red circles) within the 15\,km{} classification radius, and the 111 curated government schools (black triangles).}}{3}{}\protected@file@percent }
+\newlabel{fig:study}{{1}{3}{}{figure.1}{}}
+\citation{tucker1979}
+\citation{zha2003}
+\@writefile{lot}{\contentsline {table}{\numberline {III}{\ignorespaces Government-School Identification}}{4}{}\protected@file@percent }
+\newlabel{tab:schools}{{III}{4}{}{table.3}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {2}{\ignorespaces All 1,464 OSM school features in Bengaluru (points and campus polygons).}}{4}{}\protected@file@percent }
+\newlabel{fig:allschools}{{2}{4}{}{figure.2}{}}
+\@writefile{toc}{\contentsline {section}{\numberline {IV}Proposed Methodology}{4}{}\protected@file@percent }
+\newlabel{sec:method}{{IV}{4}{}{section.4}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {\mbox  {IV-A}}Phase 1: Data Acquisition and Pre-processing (Map)}{4}{}\protected@file@percent }
+\@writefile{lof}{\contentsline {figure}{\numberline {3}{\ignorespaces Ground truth overlay: all OSM schools (blue) and KSDB informal-settlement polygons (red).}}{4}{}\protected@file@percent }
+\newlabel{fig:gt}{{3}{4}{}{figure.3}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {4}{\ignorespaces Government schools selected by the broad filter of the initial pipeline (blue points) and KSDB informal-settlement polygons (red). The curated set used for the primary results is a subset of these schools.}}{4}{}\protected@file@percent }
+\newlabel{fig:govtgt}{{4}{4}{}{figure.4}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {\mbox  {IV-B}}Phase 2: Satellite Classification of Built-up Morphology (Detect)}{4}{}\protected@file@percent }
+\citation{breiman2001}
+\citation{dijkstra1959}
+\citation{erwig2000,okabe2008}
+\@writefile{lof}{\contentsline {figure}{\numberline {5}{\ignorespaces Proposed pipeline. Phase 1 ingests open data; Phase 2 classifies built-up morphology from Sentinel-2 (training labels drawn from KSDB polygons); Phase 3 computes network distances with a labelled multi-source Dijkstra search; Phase 4 weights results by population and derives catchment loads.}}{5}{}\protected@file@percent }
+\newlabel{fig:pipeline}{{5}{5}{}{figure.5}{}}
+\@writefile{lot}{\contentsline {table}{\numberline {IV}{\ignorespaces Classification Configuration}}{5}{}\protected@file@percent }
+\newlabel{tab:rf}{{IV}{5}{}{table.4}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {\mbox  {IV-C}}Phase 3: Network Accessibility (Measure)}{5}{}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {\mbox  {IV-D}}Phase 4: Population Weighting and Catchment Load (Weigh)}{5}{}\protected@file@percent }
+\citation{mann1947}
+\citation{cliff1993}
+\citation{romano2006}
+\citation{efron1993}
+\@writefile{toc}{\contentsline {subsection}{\numberline {\mbox  {IV-E}}Statistical Analysis}{6}{}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {\mbox  {IV-F}}Implementation}{6}{}\protected@file@percent }
+\@writefile{toc}{\contentsline {section}{\numberline {V}Results}{6}{}\protected@file@percent }
+\newlabel{sec:results}{{V}{6}{}{section.5}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {\mbox  {V-A}}Walking Distance from Classified Locations}{6}{}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {\mbox  {V-B}}Formal versus Informal: How Large Is the Difference?}{6}{}\protected@file@percent }
+\@writefile{lot}{\contentsline {table}{\numberline {V}{\ignorespaces Distance to Nearest Government School (Curated Set, $n=111$ Schools)}}{6}{}\protected@file@percent }
+\newlabel{tab:desc}{{V}{6}{}{table.5}{}}
+\@writefile{lot}{\contentsline {table}{\numberline {VI}{\ignorespaces Planned vs.\ Informal Comparison under Two Government-School Definitions}}{6}{}\protected@file@percent }
+\newlabel{tab:tests}{{VI}{6}{}{table.6}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {\mbox  {V-C}}Sensitivity to the Distance Threshold}{6}{}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {\mbox  {V-D}}The Crow-Flies Fallacy}{6}{}\protected@file@percent }
+\newlabel{sec:crowflies}{{\mbox  {V-D}}{6}{}{subsection.5.4}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {6}{\ignorespaces Mean network walking distance to the nearest government school, with 95\% bootstrap confidence intervals. Left: curated government schools (primary analysis). Right: broad filter of the initial pipeline, which includes many private ``Public'' schools. The dashed line marks the 1\,km{} RTE neighbourhood.}}{7}{}\protected@file@percent }
+\newlabel{fig:mean}{{6}{7}{}{figure.6}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {7}{\ignorespaces Empirical cumulative distribution of network walking distance to the nearest curated government school. The two curves are close throughout; the informal curve lies slightly to the left.}}{7}{}\protected@file@percent }
+\newlabel{fig:ecdf}{{7}{7}{}{figure.7}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {8}{\ignorespaces Share of sample locations within a given network distance of a curated government school. The dotted line marks the 1\,km{} primary-school neighbourhood.}}{7}{}\protected@file@percent }
+\newlabel{fig:sweep}{{8}{7}{}{figure.8}{}}
+\@writefile{lot}{\contentsline {table}{\numberline {VII}{\ignorespaces Compliance (\%) by Network-Distance Threshold}}{7}{}\protected@file@percent }
+\newlabel{tab:sweep}{{VII}{7}{}{table.7}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {9}{\ignorespaces Network vs.\ straight-line distance to the nearest curated government school. Points in the shaded region lie within 1\,km{} in a straight line but more than 1\,km{} by the street network.}}{7}{}\protected@file@percent }
+\newlabel{fig:euclid}{{9}{7}{}{figure.9}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {\mbox  {V-E}}Population-Weighted Access for KSDB Slums}{7}{}\protected@file@percent }
+\newlabel{sec:slums}{{\mbox  {V-E}}{7}{}{subsection.5.5}{}}
+\@writefile{lot}{\contentsline {table}{\numberline {VIII}{\ignorespaces Straight-Line vs.\ Network Compliance at 1\,km{}}}{8}{}\protected@file@percent }
+\newlabel{tab:crow}{{VIII}{8}{}{table.8}{}}
+\@writefile{lot}{\contentsline {table}{\numberline {IX}{\ignorespaces Network Access for KSDB Slums (WorldPop-Weighted)}}{8}{}\protected@file@percent }
+\newlabel{tab:slums}{{IX}{8}{}{table.9}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {10}{\ignorespaces Network distance to the nearest curated government school vs.\ WorldPop population for each KSDB slum, by notification status. Settlement size does not predict proximity.}}{8}{}\protected@file@percent }
+\newlabel{fig:slumpop}{{10}{8}{}{figure.10}{}}
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {\mbox  {V-E}1}Notified versus non-notified slums}{8}{}\protected@file@percent }
+\@writefile{lot}{\contentsline {table}{\numberline {X}{\ignorespaces Access by Slum Notification Status (Curated Schools)}}{8}{}\protected@file@percent }
+\newlabel{tab:notif}{{X}{8}{}{table.10}{}}
+\@writefile{lot}{\contentsline {table}{\numberline {XI}{\ignorespaces Slum Access by Administrative Zone (Curated Schools)}}{8}{}\protected@file@percent }
+\newlabel{tab:zones}{{XI}{8}{}{table.11}{}}
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {\mbox  {V-E}2}Administrative zones}{8}{}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {\mbox  {V-F}}Catchment Load: Where Slum Demand Falls}{8}{}\protected@file@percent }
+\@writefile{lof}{\contentsline {figure}{\numberline {11}{\ignorespaces Population-weighted network distance from KSDB slums to the nearest curated government school, by administrative zone.}}{9}{}\protected@file@percent }
+\newlabel{fig:zones}{{11}{9}{}{figure.11}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {12}{\ignorespaces Distribution of network distance from each KSDB slum to the nearest curated government school, by administrative zone (boxes: interquartile range; line: median; dashed line: 1\,km{} RTE neighbourhood).}}{9}{}\protected@file@percent }
+\newlabel{fig:zonebox}{{12}{9}{}{figure.12}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {13}{\ignorespaces Slum residents for whom each curated government school is the nearest by network, ranked. A small number of schools absorb most potential slum demand.}}{9}{}\protected@file@percent }
+\newlabel{fig:load}{{13}{9}{}{figure.13}{}}
+\@writefile{lot}{\contentsline {table}{\numberline {XII}{\ignorespaces Most-Loaded Government Schools (Curated Set)}}{9}{}\protected@file@percent }
+\newlabel{tab:load}{{XII}{9}{}{table.12}{}}
+\@writefile{lot}{\contentsline {table}{\numberline {XIII}{\ignorespaces Network Distance to Nearest Government vs.\ Non-Government School}}{9}{}\protected@file@percent }
+\newlabel{tab:private}{{XIII}{9}{}{table.13}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {\mbox  {V-G}}Proximity to Non-Government Schools}{9}{}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {\mbox  {V-H}}Vulnerability and Catchment Maps}{9}{}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {\mbox  {V-I}}Interactive Web Map}{9}{}\protected@file@percent }
+\citation{kingdon2020}
+\citation{hc2019}
+\citation{tnie2026}
+\citation{luo2003}
+\@writefile{lof}{\contentsline {figure}{\numberline {14}{\ignorespaces Vulnerability map of Bengaluru (curated government schools). Colour gives network walking distance to the nearest government school: green $\le $1\,km{} (compliant), orange 1--2\,km{}, red $>$2\,km{} (critical). (a) Random Forest sample locations (squares: planned; circles: informal). (b) KSDB slum centroids, sized by WorldPop population. Black triangles are curated government schools.}}{10}{}\protected@file@percent }
+\newlabel{fig:vmapc}{{14}{10}{}{figure.14}{}}
+\@writefile{toc}{\contentsline {section}{\numberline {VI}Discussion}{10}{}\protected@file@percent }
+\newlabel{sec:discussion}{{VI}{10}{}{section.6}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {\mbox  {VI-A}}A City-Wide Compliance Gap}{10}{}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {\mbox  {VI-B}}Planned Layouts and Privatised Substitution}{10}{}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {\mbox  {VI-C}}Invisibility as Exclusion}{10}{}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {\mbox  {VI-D}}From Distance to Load: Re-examining the Density Penalty}{10}{}\protected@file@percent }
+\citation{wurm2019}
+\@writefile{lof}{\contentsline {figure}{\numberline {15}{\ignorespaces Network Voronoi catchments of the 111 curated government schools on the Bengaluru pedestrian network. Each street node is coloured by its nearest government school (colours repeat and only distinguish neighbouring catchments); nodes beyond a 1\,km{} walk are faded. Open circles are KSDB slums sized by population; black triangles are schools.}}{11}{}\protected@file@percent }
+\newlabel{fig:catchmap}{{15}{11}{}{figure.15}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {\mbox  {VI-E}}Implications for Auditing Practice}{11}{}\protected@file@percent }
+\@writefile{toc}{\contentsline {section}{\numberline {VII}Threats to Validity and Limitations}{11}{}\protected@file@percent }
+\newlabel{sec:validity}{{VII}{11}{}{section.7}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {\mbox  {VII-A}}Agreement between the Classifier and KSDB Ground Truth}{11}{}\protected@file@percent }
+\citation{udise2026}
+\@writefile{lof}{\contentsline {figure}{\numberline {16}{\ignorespaces Interactive vulnerability map of central Bengaluru (broad school filter), with an informal-zone location 0.55\,km{} from the nearest government school selected. Markers show sample locations coloured by network walking distance: green $\le $1\,km{}, orange 1--2\,km{}, red $>$2\,km{}; small blue points are schools.}}{12}{}\protected@file@percent }
+\newlabel{fig:vmap}{{16}{12}{}{figure.16}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {17}{\ignorespaces The same vulnerability map with a planned-zone location 2.35\,km{} from the nearest government school selected.}}{12}{}\protected@file@percent }
+\newlabel{fig:vmap2}{{17}{12}{}{figure.17}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {\mbox  {VII-B}}School Data}{12}{}\protected@file@percent }
+\@writefile{lot}{\contentsline {table}{\numberline {XIV}{\ignorespaces Agreement of Classified Samples with KSDB Slum Polygons}}{12}{}\protected@file@percent }
+\newlabel{tab:agree}{{XIV}{12}{}{table.14}{}}
+\citation{haralick1973}
+\bibcite{census2011}{1}
+\bibcite{unhabitat2003}{2}
+\bibcite{rte2009}{3}
+\bibcite{rterules2010}{4}
+\bibcite{drusch2012}{5}
+\bibcite{gorelick2017}{6}
+\bibcite{boeing2017}{7}
+\bibcite{tatem2017}{8}
+\bibcite{kuffer2016}{9}
+\bibcite{kohli2012}{10}
+\bibcite{mahabir2018}{11}
+\bibcite{duque2015}{12}
+\bibcite{haralick1973}{13}
+\bibcite{wurm2019}{14}
+\bibcite{breiman2001}{15}
+\@writefile{toc}{\contentsline {subsection}{\numberline {\mbox  {VII-C}}Routing Assumptions}{13}{}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {\mbox  {VII-D}}Population Data}{13}{}\protected@file@percent }
+\@writefile{toc}{\contentsline {section}{\numberline {VIII}Conclusion and Future Work}{13}{}\protected@file@percent }
+\newlabel{sec:conclusion}{{VIII}{13}{}{section.8}{}}
+\@writefile{toc}{\contentsline {section}{References}{13}{}\protected@file@percent }
+\bibcite{belgiu2016}{16}
+\bibcite{tucker1979}{17}
+\bibcite{zha2003}{18}
+\bibcite{talen1998}{19}
+\bibcite{luo2003}{20}
+\bibcite{radke2000}{21}
+\bibcite{hagberg2008}{22}
+\bibcite{erwig2000}{23}
+\bibcite{okabe2008}{24}
+\bibcite{dijkstra1959}{25}
+\bibcite{haklay2010}{26}
+\bibcite{barrington2017}{27}
+\bibcite{kingdon2020}{28}
+\bibcite{muralidharan2015}{29}
+\bibcite{mann1947}{30}
+\bibcite{cliff1993}{31}
+\bibcite{romano2006}{32}
+\bibcite{efron1993}{33}
+\bibcite{udise2026}{34}
+\bibcite{hc2019}{35}
+\bibcite{tnie2026}{36}
+\gdef \@abspage@last{14}

@@ -1,0 +1,486 @@
+Sl no,Class,Name of town,Name of the slum,Notified,No of HHs (approx),Population of slum,Paved Roads in km,Drainage - Open,Drainage Closed,Both (Open and closed),No Drainage,Num Latrines - Pit,Num Latrines - Flush/pour flush,Num of latrines - service,Num of latrines - others,Community Toilets,Number of tap points/public hydrants for water supply,Electricity - Domestic,Electricity - street lighting,Electricity - Others
+1,III,Anekal  (TMC),Bahaddurpura,No,125,390,1.5,OD,-,-,-,35,43,0,43,0,35,121,3,0
+2,III,Anekal  (TMC),Ayodya Nagar,No,150,525,0.5,OD,-,-,-,42,52,0,52,0,50,146,3,0
+3,III,Anekal  (TMC),Indiranagar,No,135,404,1,OD,-,-,-,38,44,0,47,2,30,131,3,0
+4,III,Anekal  (TMC),A.K.Colony,Yes,25,120,0.4,OD,-,-,-,7,5,0,9,0,15,21,1,0
+5,III,Anekal  (TMC),A.D.Colony,Yes,76,316,0.6,OD,-,-,-,21,25,0,26,0,20,72,1,0
+6,III,Anekal  (TMC),Sweeper Colony,Yes,87,381,1.2,OD,-,-,-,24,29,0,30,0,20,83,1,0
+7,III,Anekal  (TMC),Venkateshwara Colony,No,143,564,1.4,OD,-,-,-,40,49,0,50,0,40,139,3,0
+8,III,Anekal  (TMC),Bhaddurpura,No,243,794,0.6,OD,-,-,-,68,87,0,84,0,85,239,3,0
+9,III,Anekal  (TMC),Narayanapura,No,315,1363,0.8,OD,-,-,-,88,114,0,109,0,195,311,5,0
+10,1,BBMP  (M Corp. + OG) (Part),Janatha Colony Slum,No,247,987,0.8,-,-,BD,-,26,194,0,1,22,9,242,3,0
+11,1,BBMP  (M Corp. + OG) (Part),A K Colony Slum,No,127,646,1,-,-,BD,-,13,98,0,1,11,5,125,3,0
+12,1,BBMP  (M Corp. + OG) (Part),Puttenahalli Janatha Colony  Slum,No,153,631,1.2,-,-,BD,-,16,118,0,1,14,6,150,3,0
+13,1,BBMP  (M Corp. + OG) (Part),A D Colony Slum,No,111,507,1,-,-,BD,-,12,84,0,1,10,4,109,3,0
+14,1,BBMP  (M Corp. + OG) (Part),J P N Colony Slum,No,37,179,0.8,-,-,BD,-,4,30,0,0,3,1,36,1,0
+15,1,BBMP  (M Corp. + OG) (Part),Chikdbommasandra,Yes,183,803,0.7,-,-,BD,-,19,143,0,1,16,7,180,3,0
+16,1,BBMP  (M Corp. + OG) (Part),Ambedkar Nagara,No,133,580,0.6,-,-,BD,-,14,102,0,1,12,5,131,3,0
+17,1,BBMP  (M Corp. + OG) (Part),Lbs Nagara Slum,Yes,448,1920,0.9,-,-,BD,-,47,355,0,2,40,17,440,5,0
+18,1,BBMP  (M Corp. + OG) (Part),Rachenahalli Ak Coly Slum,No,137,606,1,-,-,BD,-,14,106,0,1,12,5,134,3,0
+19,1,BBMP  (M Corp. + OG) (Part),Thanisandra A K Colony Slum,No,169,724,0.8,-,-,BD,-,18,131,0,1,15,6,166,3,0
+20,1,BBMP  (M Corp. + OG) (Part),Ward No.7,No,1421,5616,1.4,-,-,BD,-,148,1136,0,7,126,55,1395,8,0
+21,1,BBMP  (M Corp. + OG) (Part),Abbigere Janatha Colony Slum,Yes,384,1524,1.6,-,-,BD,-,40,304,0,2,34,15,377,5,0
+22,1,BBMP  (M Corp. + OG) (Part),Kammagondanahalli Onokarab Slum,Yes,55,222,1.2,-,-,BD,-,6,40,0,0,5,2,54,1,0
+23,1,BBMP  (M Corp. + OG) (Part),Jb Kaval Kammagondanahalli Slum,No,796,3505,1.1,-,-,BD,-,83,635,0,4,70,31,781,5,0
+24,1,BBMP  (M Corp. + OG) (Part),Sarkari Bande Slum,No,173,722,1.6,-,-,BD,-,18,135,0,1,15,7,170,3,0
+25,1,BBMP  (M Corp. + OG) (Part),Manjunathnagar Slum,Yes,460,1606,1.4,-,-,BD,-,48,365,0,2,41,18,452,5,0
+26,1,BBMP  (M Corp. + OG) (Part),Katarayana Nagar Slum,Yes,379,1428,1,-,-,BD,-,39,301,0,2,33,15,372,5,0
+27,1,BBMP  (M Corp. + OG) (Part),Manjunathnagar Slum,Yes,1842,6794,1,-,-,BD,-,192,1474,0,9,163,71,1808,8,0
+28,1,BBMP  (M Corp. + OG) (Part),Vinayaka Nagara (Karekal)Slum,No,195,815,1.5,-,-,BD,-,20,153,0,1,17,7,191,3,0
+29,1,BBMP  (M Corp. + OG) (Part),Kalahasthi Nagar Slum,No,382,1511,0.5,-,-,BD,-,40,302,0,2,34,15,375,5,0
+30,1,BBMP  (M Corp. + OG) (Part),Siddarthanagar Slum,Yes,992,4292,0.6,-,-,BD,-,103,792,0,5,88,38,974,5,0
+31,1,BBMP  (M Corp. + OG) (Part),Khathanagar Slum,No,286,1426,0.5,-,-,BD,-,30,226,0,1,25,11,281,3,0
+32,1,BBMP  (M Corp. + OG) (Part),Akkiyappa Garden Slum,No,96,429,0.3,-,-,BD,-,10,74,0,0,8,4,94,1,0
+33,1,BBMP  (M Corp. + OG) (Part),Poornapura Slum,No,30,116,0.4,-,-,BD,-,3,20,0,0,3,1,29,1,0
+34,1,BBMP  (M Corp. + OG) (Part),B Ramaiah Colony Slum,No,152,675,0.6,-,-,BD,-,16,118,0,1,13,6,149,3,0
+35,1,BBMP  (M Corp. + OG) (Part),Akkiyappa Garden Slum,No,40,154,1.2,-,-,BD,-,4,28,0,0,4,2,39,1,0
+36,1,BBMP  (M Corp. + OG) (Part),Poornapura Slum,No,69,291,1,-,-,BD,-,7,52,0,0,6,3,68,1,0
+37,1,BBMP  (M Corp. + OG) (Part),Gunduthopu Slum,No,134,529,0.8,-,-,BD,-,14,103,0,1,12,5,132,3,0
+38,1,BBMP  (M Corp. + OG) (Part),Ambedkar Slum,No,56,319,0.7,-,-,BD,-,6,41,0,0,5,2,55,1,0
+39,1,BBMP  (M Corp. + OG) (Part),Bande Colony Slum,No,175,774,0.6,-,-,BD,-,18,137,0,1,15,7,172,3,0
+40,1,BBMP  (M Corp. + OG) (Part),Kunti Grama Slum,Yes,50,215,0.9,-,-,BD,-,5,41,0,0,4,2,49,1,0
+41,1,BBMP  (M Corp. + OG) (Part),Shakti Nagar Slum,Yes,65,271,1,-,-,BD,-,7,48,0,0,6,2,64,1,0
+42,1,BBMP  (M Corp. + OG) (Part),Basavalingappanagar Slum,No,201,969,0.8,-,-,BD,-,21,157,0,1,18,8,197,3,0
+43,1,BBMP  (M Corp. + OG) (Part),Mm Lane Samadananagar,No,276,1372,1.4,-,-,BD,-,29,218,0,1,24,11,271,3,0
+44,1,BBMP  (M Corp. + OG) (Part),Samadanagar,No,120,501,1.6,-,-,BD,-,12,92,0,1,11,5,118,3,0
+45,1,BBMP  (M Corp. + OG) (Part),Chuna No 1 Kg Halli Slum,No,97,507,1.2,-,-,BD,-,10,74,0,0,9,4,95,1,0
+46,1,BBMP  (M Corp. + OG) (Part),Mm Lane Samadananagar,No,155,713,1.1,-,-,BD,-,16,120,0,1,14,6,152,3,0
+47,1,BBMP  (M Corp. + OG) (Part),Sait Lane Slum,No,101,515,1.6,-,-,BD,-,11,76,0,1,9,4,99,3,0
+48,1,BBMP  (M Corp. + OG) (Part),Rama Temple Slum,No,41,177,1.4,-,-,BD,-,4,29,0,0,4,2,40,1,0
+49,1,BBMP  (M Corp. + OG) (Part),Hbr 1St Block Slum,No,112,480,1,-,-,BD,-,12,85,0,1,10,4,110,3,0
+50,1,BBMP  (M Corp. + OG) (Part),Peeal Shop Slum,No,143,555,1,-,-,BD,-,15,110,0,1,13,5,140,3,0
+51,1,BBMP  (M Corp. + OG) (Part),Kamraj Slum,Yes,175,873,1.4,-,-,BD,-,18,137,0,1,15,7,172,3,0
+52,1,BBMP  (M Corp. + OG) (Part),Petrol Bunk Slum,Yes,48,223,1,-,-,BD,-,5,39,0,0,4,2,47,1,0
+53,1,BBMP  (M Corp. + OG) (Part),Channadh Badavan Slum,Yes,174,784,1,-,-,BD,-,18,136,0,1,15,7,171,3,0
+54,1,BBMP  (M Corp. + OG) (Part),Byranakunte Slum,No,155,722,1.5,-,-,BD,-,16,120,0,1,14,6,152,3,0
+55,1,BBMP  (M Corp. + OG) (Part),Nanda Gokula Slum,Yes,84,395,0.5,-,-,BD,-,9,64,0,0,7,3,82,1,0
+56,1,BBMP  (M Corp. + OG) (Part),Gunduthopu Slum,No,119,571,0.6,-,-,BD,-,12,91,0,1,11,5,117,3,0
+57,1,BBMP  (M Corp. + OG) (Part),Hennur Ak Colony Slum,Yes,140,665,0.5,-,-,BD,-,15,108,0,1,12,5,137,3,0
+58,1,BBMP  (M Corp. + OG) (Part),Vijaylakshmi Colony Slum,Yes,108,425,0.3,-,-,BD,-,11,82,0,1,10,4,106,3,0
+59,1,BBMP  (M Corp. + OG) (Part),Nagareshwaranagenahalli Slum,No,94,429,0.4,-,-,BD,-,10,72,0,0,8,4,92,1,0
+60,1,BBMP  (M Corp. + OG) (Part),Kyalasanahalli Colony Slum,No,102,603,0.6,-,-,BD,-,11,77,0,1,9,4,100,3,0
+61,1,BBMP  (M Corp. + OG) (Part),Kathnur Colony Slum,No,38,170,1.2,-,-,BD,-,4,31,0,0,3,1,37,1,0
+62,1,BBMP  (M Corp. + OG) (Part),K. Narayanapura Colony Slum,No,136,552,1,-,-,BD,-,14,105,0,1,12,5,133,3,0
+63,1,BBMP  (M Corp. + OG) (Part),Geddalahalli Colony Slum,No,112,506,0.8,-,-,BD,-,12,85,0,1,10,4,110,3,0
+64,1,BBMP  (M Corp. + OG) (Part),K. Narayanapura Colony Slum,No,143,542,1.6,-,-,BD,-,15,110,0,1,13,5,140,3,0
+65,1,BBMP  (M Corp. + OG) (Part),Kylasanahalli Colony,No,68,275,1.2,-,-,BD,-,7,51,0,0,6,3,67,1,0
+66,1,BBMP  (M Corp. + OG) (Part),Vaddara Palya Slum,No,179,746,1.1,-,-,BD,-,19,139,0,1,16,7,176,3,0
+67,1,BBMP  (M Corp. + OG) (Part),Chelkere Colony Slum,No,284,1281,1.6,-,-,BD,-,30,224,0,1,25,11,279,3,0
+68,1,BBMP  (M Corp. + OG) (Part),Babusa Palya Slum,No,184,657,1.4,-,-,BD,-,19,144,0,1,16,7,181,3,0
+69,1,BBMP  (M Corp. + OG) (Part),Jayantinagar Slum ,No,394,1654,1,-,-,BD,-,41,312,0,2,35,15,387,5,0
+70,1,BBMP  (M Corp. + OG) (Part),Muneshwara Nagar Slum ,No,479,1985,1,-,-,BD,-,50,381,0,2,42,18,470,5,0
+71,1,BBMP  (M Corp. + OG) (Part),Janatha Colony Slum,No,241,1069,1.4,-,-,BD,-,25,190,0,1,21,9,237,3,0
+72,1,BBMP  (M Corp. + OG) (Part),Kowdenahalli Slum,Yes,140,562,1,-,-,BD,-,15,108,0,1,12,5,137,3,0
+73,1,BBMP  (M Corp. + OG) (Part),Bhovi Colony Slum,Yes,474,1793,1,-,-,BD,-,49,377,0,2,42,18,465,5,0
+74,1,BBMP  (M Corp. + OG) (Part),Ambedkar Nagar Slum,No,714,3011,1.5,-,-,BD,-,74,569,0,4,63,27,701,5,0
+75,1,BBMP  (M Corp. + OG) (Part),Janakiram Layout ,Yes,714,3332,0.5,-,-,BD,-,74,569,0,4,63,27,701,5,0
+76,1,BBMP  (M Corp. + OG) (Part),Ambedkar Slum ,No,196,896,0.6,-,-,BD,-,20,154,0,1,17,8,192,3,0
+77,1,BBMP  (M Corp. + OG) (Part),Basavanagar Slum ,No,168,812,0.5,-,-,BD,-,17,131,0,1,15,6,165,3,0
+78,1,BBMP  (M Corp. + OG) (Part),Sahukar Lane Slum ,No,232,1223,0.3,-,-,BD,-,24,183,0,1,20,9,228,3,0
+79,1,BBMP  (M Corp. + OG) (Part),Ashok Nagar Slum ,No,270,1311,0.4,-,-,BD,-,28,213,0,1,24,10,265,3,0
+80,1,BBMP  (M Corp. + OG) (Part),Kasturba Nagar Slum ,No,109,518,0.6,-,-,BD,-,11,83,0,1,10,4,107,3,0
+81,1,BBMP  (M Corp. + OG) (Part),Ashok Nagar Slum,No,306,1342,1.2,-,-,BD,-,32,241,0,2,27,12,300,5,0
+82,1,BBMP  (M Corp. + OG) (Part),Ambedkar Slum ,No,181,905,1,-,-,BD,-,19,141,0,1,16,7,178,3,0
+83,1,BBMP  (M Corp. + OG) (Part),Kempegowda Slum ,No,71,346,0.8,-,-,BD,-,7,58,0,0,6,3,70,1,0
+84,1,BBMP  (M Corp. + OG) (Part),Jayaram Slum ,Yes,276,1194,1.6,-,-,BD,-,29,218,0,1,24,11,271,3,0
+85,1,BBMP  (M Corp. + OG) (Part),Sunnadagudu Slum,No,171,897,1.2,-,-,BD,-,18,133,0,1,15,7,168,3,0
+86,1,BBMP  (M Corp. + OG) (Part),Bk Nagar Slum,No,351,1479,1.1,-,-,BD,-,37,277,0,2,31,13,345,5,0
+87,1,BBMP  (M Corp. + OG) (Part),Ashraya Nagara Slum,No,421,1720,1.6,-,-,BD,-,44,334,0,2,37,16,413,5,0
+88,1,BBMP  (M Corp. + OG) (Part),Aswath Pura Slum,No,191,958,1.4,-,-,BD,-,20,149,0,1,17,7,187,3,0
+89,1,BBMP  (M Corp. + OG) (Part),Narayanpura Slum,No,307,1180,1,-,-,BD,-,32,242,0,2,27,12,301,5,0
+90,1,BBMP  (M Corp. + OG) (Part),Shivapura Slum,No,281,1038,1,-,-,BD,-,29,222,0,1,25,11,276,3,0
+91,1,BBMP  (M Corp. + OG) (Part),Rajagopalanagara Slum,No,447,1618,1,-,-,BD,-,47,355,0,2,39,17,439,5,0
+92,1,BBMP  (M Corp. + OG) (Part),Gulbarga Slum,No,160,743,1,-,-,BD,-,17,124,0,1,14,6,157,3,0
+93,1,BBMP  (M Corp. + OG) (Part),Siddharatha Slum,No,54,269,1.5,-,-,BD,-,6,39,0,0,5,2,53,1,0
+94,1,BBMP  (M Corp. + OG) (Part),Dasnayaka Palya Slum,No,167,734,0.5,-,-,BD,-,17,130,0,1,15,6,164,3,0
+95,1,BBMP  (M Corp. + OG) (Part),Sanjay Gandhi Nagar Slum,Yes,403,1387,0.6,-,-,BD,-,42,319,0,2,36,15,396,5,0
+96,1,BBMP  (M Corp. + OG) (Part),Kempamma Layout Slum,No,99,374,0.5,-,-,BD,-,10,75,0,1,9,4,97,1,0
+97,1,BBMP  (M Corp. + OG) (Part),Kavery Nagar Slum,Yes,113,476,0.3,-,-,BD,-,12,86,0,1,10,4,111,3,0
+98,1,BBMP  (M Corp. + OG) (Part),Harijan Colony (Notified) Slum,Yes,760,2962,0.4,-,-,BD,-,79,606,0,4,67,29,746,5,0
+99,1,BBMP  (M Corp. + OG) (Part),Kanteerava Nagar (Notified) Slum,Yes,1329,5482,0.6,-,-,BD,-,138,1063,0,7,117,51,1305,8,0
+100,1,BBMP  (M Corp. + OG) (Part),Jai Maruthi Nagar (Notified) Slum,Yes,201,780,1.2,-,-,BD,-,21,157,0,1,18,8,197,3,0
+101,1,BBMP  (M  Corp.  + OG) (Part),Gaumtam Nagar(Notified) Slum,Yes,259,1211,1.4,-,-,BD,-,27,204,0,1,23,10,254,3,0
+102,1,BBMP  (M Corp. + OG) (Part),Gajanana(Notified) Slum,Yes,120,601,1,-,-,BD,-,12,92,0,1,11,5,118,3,0
+103,1,BBMP  (M Corp. + OG) (Part),Krishnananda And Someshwara Nagara(Notified) Slum,Yes,155,634,1,-,-,BD,-,16,120,0,1,14,6,152,3,0
+104,1,BBMP  (M  Corp.  + OG) (Part),Krishnananda Nagar (Notified) Slum,Yes,663,2783,1.4,-,-,BD,-,69,528,0,3,59,25,651,5,0
+105,1,BBMP  (M Corp. + OG) (Part),Nanjundeshwara Nagar (Non-Notified)Slum,No,170,660,1,-,-,BD,-,18,132,0,1,15,7,167,3,0
+106,1,BBMP  (M  Corp.  + OG) (Part),Vijayananda Nagar(Notified) Slum,Yes,1148,4642,1,-,-,BD,-,120,917,0,6,101,44,1127,8,0
+107,1,BBMP  (M  Corp.  + OG) (Part),Someshwara Nagara(Notifiied) Slum,Yes,273,1030,1.5,-,-,BD,-,28,216,0,1,24,10,268,3,0
+108,1,BBMP  (M Corp. + OG) (Part),Gajanana (Notified) Slum,Yes,79,363,0.5,-,-,BD,-,8,60,0,0,7,3,78,1,0
+109,1,BBMP  (M Corp. + OG) (Part),Kirloskar Foundry (Notified) Slum,Yes,222,921,0.6,-,-,BD,-,23,174,0,1,20,9,218,3,0
+110,1,BBMP  (M  Corp.  + OG) (Part),Ashokpura (Notified) Slum,Yes,610,2690,0.5,-,-,BD,-,64,485,0,3,54,23,599,5,0
+111,1,BBMP  (M  Corp.  + OG) (Part),Vijayananda Nagar(Notified) Slum,Yes,1587,5972,0.3,-,-,BD,-,165,1270,0,8,140,61,1558,8,0
+112,1,BBMP  (M Corp. + OG) (Part),Nanjundeshwara Nagarslum,No,109,454,0.4,-,-,BD,-,11,83,0,1,10,4,107,3,0
+113,1,BBMP  (M Corp. + OG) (Part),Sharief Slum,Yes,326,1655,0.6,-,-,BD,-,34,257,0,2,29,13,320,5,0
+114,1,BBMP  (M Corp. + OG) (Part),Bairahanumaiah Slum,Yes,71,353,1.2,-,-,BD,-,7,58,0,0,6,3,70,1,0
+115,1,BBMP  (M Corp. + OG) (Part),Karimandi Slum,Yes,25,119,1,-,-,BD,-,3,16,0,0,2,1,25,1,0
+116,1,BBMP  (M Corp. + OG) (Part),Vinayaka Slum,Yes,92,512,0.8,-,-,BD,-,10,70,0,0,8,4,90,1,0
+117,1,BBMP  (M  Corp.  + OG) (Part),Siddartha Slum,Yes,86,407,1.6,-,-,BD,-,9,65,0,0,8,3,84,1,0
+118,1,BBMP  (M  Corp.  + OG) (Part),Devara Jeevanahalli Slum,No,381,1866,1.2,-,-,BD,-,40,301,0,2,34,15,374,5,0
+119,1,BBMP  (M Corp. + OG) (Part),Sait Palya Slum,Yes,189,857,1,-,-,BD,-,20,147,0,1,17,7,186,3,0
+120,1,BBMP  (M  Corp.  + OG) (Part),Bda Layout G’ Block Slum,Yes,216,1035,1,-,-,BD,-,22,170,0,1,19,8,212,3,0
+121,1,BBMP  (M  Corp.  + OG) (Part),Yk Block Slum,Yes,281,1433,1,-,-,BD,-,29,222,0,1,25,11,276,3,0
+122,1,BBMP  (M  Corp.  + OG) (Part),Bda Layout B’ Block Slum,Yes,1006,4999,1.5,-,-,BD,-,105,803,0,5,89,39,987,8,0
+123,1,BBMP  (M Corp. + OG) (Part),Hosanagara Slum,Yes,131,630,0.5,-,-,BD,-,14,100,0,1,12,5,129,3,0
+124,1,BBMP  (M  Corp.  + OG) (Part),Railway Dump Site Slum,No,303,1271,0.6,-,-,BD,-,32,238,0,2,27,12,297,5,0
+125,1,BBMP  (M  Corp.  + OG) (Part),Ambedkar Nagar Slum,No,680,2966,0.5,-,-,BD,-,71,542,0,3,60,26,667,5,0
+126,1,BBMP  (M Corp. + OG) (Part),Gajendranagar Slum,Yes,258,1172,0.3,-,-,BD,-,27,203,0,1,23,10,253,3,0
+127,1,BBMP  (M Corp. +  OG)  (Part),Sanjay Gandhinagar Slum,Yes,90,400,0.4,-,-,BD,-,9,69,0,0,8,3,88,1,0
+128,1,BBMP  (M Corp. + OG) (Part),Gajendranagar Slum,Yes,390,1731,0.6,-,-,BD,-,41,309,0,2,34,15,383,5,0
+129,1,BBMP  (M  Corp.  + OG) (Part),Laxmanmurthy Nagar Slum,No,433,1870,1.2,-,-,BD,-,45,344,0,2,38,17,425,5,0
+130,1,BBMP  (M  Corp.  + OG) (Part),Ambedkar Nagar Slum,No,1412,6550,1.4,-,-,BD,-,147,1129,0,7,125,54,1386,8,0
+131,1,BBMP  (M Corp. + OG) (Part),Ambedakar Colony Slum,No,130,570,1,-,-,BD,-,14,100,0,1,11,5,128,3,0
+132,1,BBMP  (M  Corp.  + OG) (Part),Anandapura Slum,No,316,1288,1,-,-,BD,-,33,249,0,2,28,12,310,5,0
+133,1,BBMP  (M Corp. + OG) (Part),Janatha Colny Slum,No,89,411,0.3,-,-,BD,-,9,68,0,0,8,3,87,1,0
+134,1,BBMP  (M  Corp.  + OG) (Part),Parvathi Nagar Colony,No,296,1301,0.4,-,-,BD,-,31,233,0,2,26,11,291,3,0
+135,1,BBMP  (M  Corp.  + OG) (Part),Priyanka Nagar Colony,Yes,312,1332,0.6,-,-,BD,-,32,246,0,2,28,12,306,5,0
+136,1,BBMP  (M  Corp.  + OG) (Part),Swathanthra Nagar Slum,No,252,1135,1.2,-,-,BD,-,26,199,0,1,22,10,247,3,0
+137,1,BBMP  (M  Corp.  + OG) (Part),Rajeeva Nagar Slum,No,145,678,1.4,-,-,BD,-,15,112,0,1,13,6,142,3,0
+138,1,BBMP  (M  Corp.  + OG) (Part),Chikkadevasandra Slum,No,382,1718,1,-,-,BD,-,40,302,0,2,34,15,375,5,0
+139,1,BBMP  (M Corp. +  OG)  (Part),Rajeev Nagar Slum,Yes,99,357,1,-,-,BD,-,10,75,0,1,9,4,97,1,0
+140,1,BBMP  (M Corp. + OG) (Part),Sanjaya Nagar Slum,No,183,731,1.4,-,-,BD,-,19,143,0,1,16,7,180,3,0
+141,1,BBMP  (M Corp. + OG) (Part),Singaiah Palya Slum,No,99,437,1,-,-,BD,-,10,75,0,1,9,4,97,1,0
+142,1,BBMP  (M Corp. + OG) (Part),A K Colony Slum,No,25,103,1,-,-,BD,-,3,16,0,0,2,1,25,1,0
+143,1,BBMP  (M Corp. + OG) (Part),Ambedkar Colony Slum,No,102,408,1.5,-,-,BD,-,11,77,0,1,9,4,100,3,0
+144,1,BBMP  (M Corp. + OG) (Part),Kirshna Nagar Slum,No,196,844,0.5,-,-,BD,-,20,154,0,1,17,8,192,3,0
+145,1,BBMP  (M  Corp.  + OG) (Part),Joythipuram Slum,No,239,1115,0.6,-,-,BD,-,25,188,0,1,21,9,235,3,0
+146,1,BBMP  (M Corp. + OG) (Part),Nagaiahnapalya,No,269,1144,0.5,-,-,BD,-,28,212,0,1,24,10,264,3,0
+147,1,BBMP  (M Corp. + OG) (Part),Sathyanagar,Yes,630,2791,0.3,-,-,BD,-,66,501,0,3,56,24,618,5,0
+148,1,BBMP  (M Corp. + OG) (Part),Krishnappa Lane Garden,Yes,163,772,0.4,-,-,BD,-,17,127,0,1,14,6,160,3,0
+149,1,BBMP  (M Corp. + OG) (Part),Nagappa Garden,Yes,221,830,0.6,-,-,BD,-,23,173,0,1,20,8,217,3,0
+150,1,BBMP  (M Corp. + OG) (Part),K.R. Palya,Yes,97,447,1.2,-,-,BD,-,10,74,0,0,9,4,95,1,0
+151,1,BBMP  (M Corp. + OG) (Part),Chetyappa  Garden,No,75,390,1,-,-,BD,-,8,56,0,0,7,3,74,1,0
+152,1,BBMP  (M Corp. + OG) (Part),Kandaswamy  Garden,No,126,567,0.8,-,-,BD,-,13,97,0,1,11,5,124,3,0
+153,1,BBMP  (M Corp. + OG) (Part),Muninarayanappa  Garden,Yes,123,580,1.6,-,-,BD,-,13,94,0,1,11,5,121,3,0
+154,1,BBMP  (M Corp. + OG) (Part),Ward No.59,Yes,65,324,1,-,-,BD,-,7,48,0,0,6,2,64,1,0
+155,1,BBMP  (M Corp. + OG) (Part),A.K.  Colony,Yes,52,232,1,-,-,BD,-,5,38,0,0,5,2,51,1,0
+156,1,BBMP  (M Corp. + OG) (Part),Chennappa Lane,Yes,46,216,1,-,-,BD,-,5,33,0,0,4,2,45,1,0
+157,1,BBMP  (M Corp. + OG) (Part),Kondappa  Garden,Yes,34,262,1,-,-,BD,-,4,23,0,0,3,1,33,1,0
+158,1,BBMP  (M Corp. + OG) (Part),Chennappa Lane,Yes,57,238,1.5,-,-,BD,-,6,42,0,0,5,2,56,1,0
+159,1,BBMP  (M Corp. + OG) (Part),Sathyanagar,Yes,120,516,0.5,-,-,BD,-,12,92,0,1,11,5,118,3,0
+160,1,BBMP  (M  Corp.  + OG) (Part),Ward No.60,No,894,4563,0.6,-,-,BD,-,93,713,0,5,79,34,878,5,0
+161,1,BBMP  (M  Corp.  + OG) (Part),Aan Slum,No,263,1193,0.5,-,-,BD,-,27,208,0,1,23,10,258,3,0
+162,1,BBMP  (M  Corp.  + OG) (Part),Vyalikaval Slum,No,64,417,0.3,-,-,BD,-,7,47,0,0,6,2,63,1,0
+163,1,BBMP  (M  Corp.  + OG) (Part),Bhovi Palya(Bhagyajyothi Colony) Slum,Yes,504,2026,0.4,-,-,BD,-,52,400,0,3,45,19,495,5,0
+164,1,BBMP  (M Corp. +  OG)  (Part),Bhimashakti Nagar Slum,Yes,76,299,0.6,-,-,BD,-,8,57,0,0,7,3,75,1,0
+165,1,BBMP  (M  Corp.  + OG) (Part),Raj Gopalnagar Slum,Yes,1882,6439,1.2,-,-,BD,-,196,1506,0,10,166,72,1847,8,0
+166,1,BBMP  (M  Corp.  + OG) (Part),Bassapa Katte Slum,No,1825,6559,1.4,-,-,BD,-,190,1461,0,9,161,70,1791,8,0
+167,1,BBMP  (M Corp. + OG) (Part),Raj Gopalnagar Slum,Yes,211,813,1,-,-,BD,-,22,165,0,1,19,8,207,3,0
+168,1,BBMP  (M Corp. + OG) (Part),Friends Colony Slum,No,216,792,1,-,-,BD,-,22,170,0,1,19,8,212,3,0
+169,1,BBMP  (M  Corp.  + OG) (Part),Maruthi Nagar Slum,No,648,2314,1.4,-,-,BD,-,67,517,0,3,57,25,636,5,0
+170,1,BBMP  (M Corp. + OG) (Part),Shivanandhnagar Slum,No,195,693,1,-,-,BD,-,20,153,0,1,17,7,191,3,0
+171,1,BBMP  (M Corp. + OG) (Part),Maruthi Nagar Slum,No,225,838,1,-,-,BD,-,23,177,0,1,20,9,221,3,0
+172,1,BBMP  (M Corp. + OG) (Part),Shivanandhnagar Slum,No,214,895,1.5,-,-,BD,-,22,168,0,1,19,8,210,3,0
+173,1,BBMP  (M Corp. + OG) (Part),Maruthi Nagar Slum,No,157,554,0.5,-,-,BD,-,16,122,0,1,14,6,154,3,0
+174,1,BBMP  (M Corp. + OG) (Part),Malagalu,No,302,1158,0.6,-,-,BD,-,31,238,0,2,27,12,296,5,0
+175,1,BBMP  (M Corp. + OG) (Part),Krishnananda Nagar,No,189,762,0.5,-,-,BD,-,20,147,0,1,17,7,186,3,0
+176,1,BBMP  (M  Corp.  + OG)  (Part),Sajjepalya,No,111,517,0.3,-,-,BD,-,12,84,0,1,10,4,109,3,0
+177,1,BBMP  (M Corp. + OG) (Part),Narasimhaiana Palya,No,209,877,0.4,-,-,BD,-,22,164,0,1,18,8,205,3,0
+178,1,BBMP  (M Corp. + OG) (Part),Kamalanagar Slum,Yes,538,2112,0.6,-,-,BD,-,56,427,0,3,48,21,528,5,0
+179,1,BBMP  (M Corp. + OG) (Part),Chandranagar Slum,Yes,777,3134,1.2,-,-,BD,-,81,619,0,4,69,30,763,5,0
+180,1,BBMP  (M  Corp.  + OG) (Part),Sy. No 30And31 Notified,Yes,1514,5909,0.3,-,-,BD,-,158,1210,0,8,134,58,1486,8,0
+181,1,BBMP  (M Corp. + OG) (Part),Kamalanagar Slum,Yes,984,3868,0.4,-,-,BD,-,102,786,0,5,87,38,966,5,0
+182,1,BBMP  (M Corp. + OG) (Part),Jc Nagar Slum(Notified),Yes,161,629,0.6,-,-,BD,-,17,125,0,1,14,6,158,3,0
+183,1,BBMP  (M Corp. + OG) (Part),Kamalanagar Slum(Notified),Yes,769,3085,1.2,-,-,BD,-,80,613,0,4,68,29,755,5,0
+184,1,BBMP  (M  Corp.  + OG) (Part),Ashajhothinagara Slum(Notified),Yes,1078,4474,1.4,-,-,BD,-,112,862,0,5,95,41,1058,8,0
+185,1,BBMP  (M  Corp.  + OG) (Part),Anjaneya Swamy Gudda Slum(Kamalanagar),Yes,327,1288,1,-,-,BD,-,34,258,0,2,29,13,321,5,0
+186,1,BBMP  (M Corp. + OG) (Part),Kamalanagar Slum,Yes,178,719,1,-,-,BD,-,19,138,0,1,16,7,175,3,0
+187,1,BBMP  (M  Corp.  + OG) (Part),Mahatma Gandhinagar Slum,No,309,1216,0.3,-,-,BD,-,32,244,0,2,27,12,303,5,0
+188,1,BBMP  (M Corp. + OG) (Part),Kamalanagar Slum,Yes,128,526,0.4,-,-,BD,-,13,99,0,1,11,5,126,3,0
+189,1,BBMP  (M Corp. + OG) (Part),Mahatma Ghandhinagar Slum,No,131,502,0.6,-,-,BD,-,14,100,0,1,12,5,129,3,0
+190,1,BBMP  (M  Corp.  + OG) (Part),Vivekananda Block  Slum,Yes,737,3133,1.2,-,-,BD,-,77,587,0,4,65,28,723,5,0
+191,1,BBMP  (M Corp. + OG) (Part),Doggigunta,Yes,142,534,1.4,-,-,BD,-,15,109,0,1,13,5,139,3,0
+192,1,BBMP  (M  Corp.  + OG) (Part),Kateramma Slum,No,146,507,1,-,-,BD,-,15,113,0,1,13,6,143,3,0
+193,1,BBMP  (M  Corp.  + OG) (Part),Indra Harijana Seva Sangha,Yes,354,1590,1,-,-,BD,-,37,280,0,2,31,14,347,5,0
+194,1,BBMP  (M Corp. + OG) (Part),P.K.  Colony,No,269,1459,1.4,-,-,BD,-,28,212,0,1,24,10,264,3,0
+195,1,BBMP  (M Corp. + OG) (Part),Polluramma Slum,Yes,385,1755,1,-,-,BD,-,40,305,0,2,34,15,378,5,0
+196,1,BBMP  (M Corp. + OG) (Part),Indra Harijana Seva Sangha,Yes,137,646,1,-,-,BD,-,14,106,0,1,12,5,134,3,0
+197,1,BBMP  (M Corp. + OG) (Part),Lakshmipura Slum,Yes,131,620,1.5,-,-,BD,-,14,100,0,1,12,5,129,3,0
+198,1,BBMP  (M Corp. + OG) (Part),Binnamangala Slum,Yes,525,2146,0.5,-,-,BD,-,55,417,0,3,46,20,515,5,0
+199,1,BBMP  (M Corp. + OG) (Part),Kommarkote Slum,No,163,612,0.6,-,-,BD,-,17,127,0,1,14,6,160,3,0
+200,1,BBMP  (M Corp. + OG) (Part),Shivashakti Colony Slum,No,187,847,0.5,-,-,BD,-,19,146,0,1,17,7,184,3,0
+201,1,BBMP  (M  Corp.  + OG) (Part),Neellurupuram Slum,Yes,286,1209,0.3,-,-,BD,-,30,226,0,1,25,11,281,3,0
+202,1,BBMP  (M Corp. + OG) (Part),Kaverinagar,No,407,1637,0.4,-,-,BD,-,42,323,0,2,36,16,399,5,0
+203,1,BBMP  (M  Corp.  + OG) (Part),Ambedkar Nagar,Yes,99,344,0.6,-,-,BD,-,10,75,0,1,9,4,97,1,0
+204,1,BBMP  (M  Corp.  + OG) (Part),Ward No.83,Yes,257,1104,1.2,-,-,BD,-,27,202,0,1,23,10,252,3,0
+205,1,BBMP  (M  Corp.  + OG) (Part),Akg Colony Slum,No,827,3298,1,-,-,BD,-,86,660,0,4,73,32,812,5,0
+206,1,BBMP  (M  Corp.  + OG) (Part),Ambedkar Nagar Gutta Slum,No,1145,4386,0.8,-,-,BD,-,119,915,0,6,101,44,1124,8,0
+207,1,BBMP  (M  Corp.  + OG) (Part),Palthundur Agrahara Slum,No,381,1417,1.6,-,-,BD,-,40,301,0,2,34,15,374,5,0
+208,1,BBMP  (M  Corp.  + OG) (Part),Gandhipura Slum,No,700,2858,1,-,-,BD,-,73,557,0,4,62,27,687,5,0
+209,1,BBMP  (M Corp. + OG) (Part),Nallurahalli Slum,Yes,416,1597,1,-,-,BD,-,43,330,0,2,37,16,408,5,0
+210,1,BBMP  (M  Corp.  + OG) (Part),Gandhipura Slum,No,971,3881,0.6,-,-,BD,-,101,775,0,5,86,37,953,5,0
+211,1,BBMP  (M  Corp.  + OG) (Part),Kundalahalli Colony Slum,No,1040,3889,1.2,-,-,BD,-,108,831,0,5,92,40,1021,8,0
+212,1,BBMP  (M Corp. + OG) (Part),A.K. Colony Slum,No,128,487,1.4,-,-,BD,-,13,99,0,1,11,5,126,3,0
+213,1,BBMP  (M Corp. + OG) (Part),Muneshwara Colony Slum,No,51,242,1,-,-,BD,-,5,37,0,0,5,2,50,1,0
+214,1,BBMP  (M Corp. + OG) (Part),Harish Chandra Colony Slum,No,27,97,1,-,-,BD,-,3,22,0,0,2,1,27,1,0
+215,1,BBMP  (M Corp. + OG) (Part),Maruthi Nagar Slum,No,66,298,1.4,-,-,BD,-,7,49,0,0,6,3,65,1,0
+216,1,BBMP  (M Corp. + OG) (Part),Lakshminarayanapura Slum,No,81,345,1,-,-,BD,-,8,66,0,0,7,3,80,1,0
+217,1,BBMP  (M Corp. + OG) (Part),Aswath Nagar Slum,No,176,775,1,-,-,BD,-,18,137,0,1,16,7,173,3,0
+218,1,BBMP  (M  Corp.  + OG) (Part),Sanjaya Nagar Slum,No,1057,3974,1.5,-,-,BD,-,110,845,0,5,93,41,1038,8,0
+219,1,BBMP  (M  Corp.  + OG) (Part),Manjunatha Nagar Slum,No,515,1996,0.5,-,-,BD,-,54,409,0,3,45,20,506,5,0
+220,1,BBMP  (M Corp. + OG) (Part),Maruthahalli A Ak Colony Slum,No,176,683,0.6,-,-,BD,-,18,137,0,1,16,7,173,3,0
+221,1,BBMP  (M Corp. + OG) (Part),Yamallur Ak Colony,No,118,484,0.5,-,-,BD,-,12,91,0,1,10,5,116,3,0
+222,1,BBMP  (M  Corp.  + OG) (Part),Nallur Pura Slum,Yes,517,2274,0.3,-,-,BD,-,54,410,0,3,46,20,507,5,0
+223,1,BBMP  (M Corp. + OG) (Part),Ambedkar Nagar Colony,Yes,76,372,0.4,-,-,BD,-,8,57,0,0,7,3,75,1,0
+224,1,BBMP  (M  Corp.  + OG) (Part),Anandpura Slum,Yes,1148,5287,0.6,-,-,BD,-,120,917,0,6,101,44,1127,8,0
+225,1,BBMP  (M  Corp.  + OG) (Part),Sudhama Nagar Slum,Yes,679,3234,1.2,-,-,BD,-,71,541,0,3,60,26,666,5,0
+226,1,BBMP  (M  Corp.  + OG) (Part),M.V.Garden Slum,Yes,1835,8512,0.3,-,-,BD,-,191,1469,0,9,162,70,1801,8,0
+227,1,BBMP  (M  Corp.  + OG) (Part),Ambedkar Slum,No,79,376,0.4,-,-,BD,-,8,60,0,0,7,3,78,1,0
+228,1,BBMP  (M Corp. + OG) (Part),V V Giri Colony(Non_Notified) Slum,No,123,585,0.6,-,-,BD,-,13,94,0,1,11,5,121,3,0
+229,1,BBMP  (M Corp. + OG) (Part),V V Giri Colony(Risaldar Street),No,172,836,1.2,-,-,BD,-,18,134,0,1,15,7,169,3,0
+230,1,BBMP  (M Corp. + OG) (Part),Risaldar Colony,No,133,758,1.4,-,-,BD,-,14,102,0,1,12,5,131,3,0
+231,1,BBMP  (M Corp. + OG) (Part),Risaldar Colony Slum(Non_Notified),No,72,362,1,-,-,BD,-,7,59,0,0,6,3,71,1,0
+232,1,BBMP  (M Corp. + OG) (Part),V V Giri Colony,No,154,728,1,-,-,BD,-,16,119,0,1,14,6,151,3,0
+233,1,BBMP  (M  Corp.  + OG)  (Part),Jayachamarajendra Wodeyar Nagar(Non_Nofified),No,104,408,0.5,-,-,BD,-,11,79,0,1,9,4,102,3,0
+234,1,BBMP  (M Corp. + OG) (Part),V V Giri Colony Slum(Non_Notified),No,44,196,0.6,-,-,BD,-,5,31,0,0,4,2,43,1,0
+235,1,BBMP  (M Corp. + OG) (Part),V V Giri Colony,No,139,565,0.5,-,-,BD,-,14,108,0,1,12,5,136,3,0
+236,1,BBMP  (M Corp. + OG) (Part),Jcw  Colony,No,100,437,0.3,-,-,BD,-,10,76,0,1,9,4,98,1,0
+237,1,BBMP  (M Corp. + OG) (Part),V V Giri Colony,No,120,546,0.4,-,-,BD,-,12,92,0,1,11,5,118,3,0
+238,1,BBMP  (M  Corp.  + OG) (Part),Kenchappa Garden,Yes,792,3035,0.6,-,-,BD,-,82,632,0,4,70,30,777,5,0
+239,1,BBMP  (M Corp. + OG) (Part),Himalaya Huts,Yes,80,546,1.2,-,-,BD,-,8,61,0,0,7,3,79,1,0
+240,1,BBMP  (M Corp. + OG) (Part),Kenchappa Garden (Lakshmanapuri) Slum,Yes,67,327,1,-,-,BD,-,7,50,0,0,6,3,66,1,0
+241,1,BBMP  (M Corp. + OG) (Part),Vallipuram Slum,Yes,265,1304,0.8,-,-,BD,-,28,209,0,1,23,10,260,3,0
+242,1,BBMP  (M  Corp.  + OG) (Part),Nelagiri Pappanna Slum,No,433,1854,1.6,-,-,BD,-,45,344,0,2,38,17,425,5,0
+243,1,BBMP  (M  Corp.  + OG) (Part),Jaibheema Nagar Slum,Yes,92,437,1,-,-,BD,-,10,70,0,0,8,4,90,1,0
+244,1,BBMP  (M  Corp.  + OG) (Part),Swtantrapalya Slum,No,2852,11804,1,-,-,BD,-,297,2285,0,14,252,109,2799,10,0
+245,1,BBMP  (M  Corp.  + OG) (Part),Jakkarayana Kere Slum,Yes,560,2595,0.6,-,-,BD,-,58,446,0,3,49,21,550,5,0
+246,1,BBMP  (M Corp. + OG) (Part),Narayanappa Colony Slum,Yes,46,197,1.2,-,-,BD,-,5,33,0,0,4,2,45,1,0
+247,1,BBMP  (M Corp. + OG) (Part),Vivekananda Colony Slum,Yes,128,600,1.4,-,-,BD,-,13,99,0,1,11,5,126,3,0
+248,1,BBMP  (M Corp. + OG) (Part),Hanumanthappa Slum,Yes,38,162,1,-,-,BD,-,4,31,0,0,3,1,37,1,0
+249,1,BBMP  (M  Corp.  + OG) (Part),Hanumanthappa Colony Slum,Yes,254,1150,1,-,-,BD,-,26,201,0,1,22,10,249,3,0
+250,1,BBMP  (M  Corp.  + OG) (Part),Sanjayghandhi Nagar Slum,Yes,108,510,1.4,-,-,BD,-,11,82,0,1,10,4,106,3,0
+251,1,BBMP  (M  Corp.  + OG) (Part),Shastrinagar Slum,No,153,740,1,-,-,BD,-,16,118,0,1,14,6,150,3,0
+252,1,BBMP  (M Corp. + OG) (Part),Vivekananda Colony Slum,Yes,75,366,1,-,-,BD,-,8,56,0,0,7,3,74,1,0
+253,1,BBMP  (M Corp. + OG) (Part),Narayanappa  Colonyslum,Yes,140,614,1.5,-,-,BD,-,15,108,0,1,12,5,137,3,0
+254,1,BBMP  (M Corp. + OG) (Part),Lakshman Rao Slum,Yes,175,694,0.5,-,-,BD,-,18,137,0,1,15,7,172,3,0
+255,1,BBMP  (M  Corp.  + OG) (Part),Ambedkar Slum,Yes,253,1145,1,-,-,BD,-,26,200,0,1,22,10,248,3,0
+256,1,BBMP  (M Corp. + OG) (Part),Ursu Nagar Slum,Yes,56,233,0.6,-,-,BD,-,6,41,0,0,5,2,55,1,0
+257,1,BBMP  (M Corp. + OG) (Part),Avalamma Chatra Slum,Yes,141,619,1.2,-,-,BD,-,15,109,0,1,12,5,138,3,0
+258,1,BBMP  (M Corp. + OG) (Part),Vst Colony Slum,Yes,117,488,1.4,-,-,BD,-,12,90,0,1,10,4,115,3,0
+259,1,BBMP  (M  Corp.  + OG) (Part),Ward No.96,Yes,671,3114,1,-,-,BD,-,70,535,0,3,59,26,659,5,0
+260,1,BBMP  (M  Corp.  + OG) (Part),Selva Nagar(Notified) Slum,Yes,50,227,1,-,-,BD,-,5,41,0,0,4,2,49,1,0
+261,1,BBMP  (M  Corp.  + OG) (Part),Gopalpura Slum,Yes,634,3249,1.4,-,-,BD,-,66,505,0,3,56,24,622,5,0
+262,1,BBMP  (M  Corp.  + OG) (Part),Ghouse Land  Slum,Yes,679,3342,1,-,-,BD,-,71,541,0,3,60,26,666,5,0
+263,1,BBMP  (M  Corp.  + OG) (Part),Gowthamnagar Slum,No,533,2419,1,-,-,BD,-,55,424,0,3,47,20,523,5,0
+264,1,BBMP  (M Corp. + OG) (Part),Ramakrishna Sevanagar Slum,No,143,709,1.5,-,-,BD,-,15,110,0,1,13,5,140,3,0
+265,1,BBMP  (M Corp. + OG) (Part),Venkateshwara Harijana Colony,No,87,461,1.3,-,-,BD,-,9,66,0,0,8,3,85,1,0
+266,1,BBMP  (M  Corp.  + OG) (Part),Ambedkar Nagar Slum,Yes,222,1184,1.5,-,-,BD,-,23,174,0,1,20,9,218,3,0
+267,1,BBMP  (M Corp. + OG) (Part),Mariyappanapalya  Slum,No,728,3186,1.6,-,-,BD,-,76,580,0,4,64,28,715,5,0
+268,1,BBMP  (M Corp. + OG) (Part),Indiranagar Slum,Yes,947,3934,1.5,-,-,BD,-,99,755,0,5,84,36,930,5,0
+269,1,BBMP  (M Corp. + OG) (Part),Rajajinagar Slum,Yes,613,2467,0.5,-,-,BD,-,64,488,0,3,54,24,602,5,0
+270,1,BBMP  (M Corp. + OG) (Part),Bhovi Colony Slum,Yes,244,985,1,-,-,BD,-,25,192,0,1,22,9,240,3,0
+271,1,BBMP  (M Corp. + OG) (Part),Bhovi Colony Slum,Yes,13,52,0.6,-,-,BD,-,1,11,0,0,1,0,13,1,0
+272,1,BBMP  (M  Corp.  + OG) (Part),Karekal Slum,Yes,352,1411,0.8,-,-,BD,-,37,278,0,2,31,14,346,5,0
+273,1,BBMP  (M  Corp.  + OG) (Part),Ak Colony Slum,Yes,217,1011,1,-,-,BD,-,23,170,0,1,19,8,213,3,0
+274,1,BBMP  (M Corp. + OG) (Part),Sriramnagar Slum,Yes,322,1271,1,-,-,BD,-,34,254,0,2,28,12,316,5,0
+275,1,BBMP  (M Corp. + OG) (Part),Kamalanagara Slum,Yes,592,2286,1.5,-,-,BD,-,62,471,0,3,52,23,581,5,0
+276,1,BBMP  (M  Corp.  + OG) (Part),Sannakki Bayalu(Kamalanagara) Slum,Yes,251,834,0.5,-,-,BD,-,26,198,0,1,22,10,246,3,0
+277,1,BBMP  (M Corp. + OG) (Part),Ngo Slum Vrushabhavati Nagar,No,42,164,1,-,-,BD,-,4,34,0,0,4,2,41,1,0
+278,1,BBMP  (M Corp. + OG) (Part),Kamalanagara Slum,Yes,155,574,0.6,-,-,BD,-,16,120,0,1,14,6,152,3,0
+279,1,BBMP  (M  Corp.  + OG) (Part),Ngo Slum Vrushabhavati Nagar,No,590,2274,1.2,-,-,BD,-,61,470,0,3,52,23,579,5,0
+280,1,BBMP  (M Corp. + OG) (Part),Manjunath Nagar  Slum,No,41,149,1.4,-,-,BD,-,4,29,0,0,4,2,40,1,0
+281,1,BBMP  (M Corp. + OG) (Part),Chamundinagar Slum,No,521,2256,1,-,-,BD,-,54,414,0,3,46,20,511,5,0
+282,1,BBMP  (M  Corp.  + OG) (Part),Harijan Sevan Sangha Slum,No,38,151,1,-,-,BD,-,4,31,0,0,3,1,37,1,0
+283,1,BBMP  (M Corp. + OG) (Part),Chamundinagar Slum,No,32,127,1.4,-,-,BD,-,3,26,0,0,3,1,31,1,0
+284,1,BBMP  (M  Corp.  + OG) (Part),A. K. Colony Slum,Yes,405,1906,1,-,-,BD,-,42,321,0,2,36,16,398,5,0
+285,1,BBMP  (M Corp. + OG) (Part),Amarjyothi Slum,No,35,158,1,-,-,BD,-,4,24,0,0,3,1,34,1,0
+286,1,BBMP  (M Corp. + OG) (Part),Ring Road Slum,No,40,160,1.5,-,-,BD,-,4,28,0,0,4,2,39,1,0
+287,1,BBMP  (M Corp. + OG) (Part),Gowdham Colony Slum,No,46,187,1.3,-,-,BD,-,5,33,0,0,4,2,45,1,0
+288,1,BBMP  (M  Corp.  + OG) (Part),Isro Slum,Yes,277,1318,1.5,-,-,BD,-,29,219,0,1,24,11,272,3,0
+289,1,BBMP  (M  Corp.  + OG) (Part),Dhina Bandhu Slum,Yes,306,1309,1.6,-,-,BD,-,32,241,0,2,27,12,300,5,0
+290,1,BBMP  (M  Corp.  + OG) (Part),Gowthampura Slum,Yes,451,1937,1.5,-,-,BD,-,47,358,0,2,40,17,443,5,0
+291,1,BBMP  (M Corp. + OG) (Part),Jairajnagar Slum,Yes,351,1557,0.5,-,-,BD,-,37,277,0,2,31,13,345,5,0
+292,1,BBMP  (M Corp. + OG) (Part),Rudrappa Garden,Yes,162,732,1,-,-,BD,-,17,126,0,1,14,6,159,3,0
+293,1,BBMP  (M Corp. + OG) (Part),Maya  Bazar,Yes,357,1529,0.4,-,-,BD,-,37,282,0,2,32,14,350,5,0
+294,1,BBMP  (M  Corp.  + OG) (Part),Gowthampura Slum,Yes,689,2915,0.6,-,-,BD,-,72,549,0,3,61,26,676,5,0
+295,1,BBMP  (M Corp. + OG) (Part),Maya  Bazar,Yes,313,1302,1.2,-,-,BD,-,33,246,0,2,28,12,307,5,0
+296,1,BBMP  (M  Corp.  + OG) (Part),Rudrappa Garden,Yes,266,1113,1.4,-,-,BD,-,28,210,0,1,23,10,261,3,0
+297,1,BBMP  (M  Corp.  + OG) (Part),Lakshman Rau Nagar Slum,Yes,1569,7230,1,-,-,BD,-,163,1255,0,8,139,60,1540,8,0
+298,1,BBMP  (M  Corp.  + OG) (Part),Ambedkar Nagar Slum,Yes,1460,6399,1,-,-,BD,-,152,1168,0,7,129,56,1433,8,0
+299,1,BBMP  (M Corp. + OG) (Part),Thimarayappa Garden Slum,No,54,257,0.5,-,-,BD,-,6,39,0,0,5,2,53,1,0
+300,1,BBMP  (M  Corp.  + OG) (Part),Jalakanteswar Slum,No,228,1098,0.6,-,-,BD,-,24,179,0,1,20,9,224,3,0
+301,1,BBMP  (M Corp. + OG) (Part),Ward No. 117,No,191,948,0.5,-,-,BD,-,20,149,0,1,17,7,187,3,0
+302,1,BBMP  (M Corp. + OG) (Part),Jalakanteswar Slum,No,167,773,0.3,-,-,BD,-,17,130,0,1,15,6,164,3,0
+303,1,BBMP  (M  Corp.  + OG) (Part),Kadhar Shariff Garden Slum,Yes,767,3591,0.4,-,-,BD,-,80,611,0,4,68,29,753,5,0
+304,1,BBMP  (M  Corp.  + OG) (Part),Ramanna Garden Slum,Yes,373,1692,0.6,-,-,BD,-,39,295,0,2,33,14,366,5,0
+305,1,BBMP  (M Corp. + OG) (Part),Vyayamashala Slum (Muniyapppa  Cement Huts),Yes,174,948,1.2,-,-,BD,-,18,136,0,1,15,7,171,3,0
+306,1,BBMP  (M Corp. + OG) (Part),Vinobhanagar Slum,Yes,443,2264,1,-,-,BD,-,46,352,0,2,39,17,435,5,0
+307,1,BBMP  (M  Corp.  + OG) (Part),Shambhupalya Slum,Yes,554,2897,0.8,-,-,BD,-,58,440,0,3,49,21,544,5,0
+308,1,BBMP  (M  Corp.  + OG) (Part),Nageshwar Rao Garden Slum,Yes,638,3235,1.6,-,-,BD,-,66,509,0,3,56,24,626,5,0
+309,1,BBMP  (M Corp. + OG) (Part),Ameerkhan Garden Slum,Yes,71,463,1,-,-,BD,-,7,58,0,0,6,3,70,1,0
+310,1,BBMP  (M Corp. + OG) (Part),Aswathnagara  Slum,No,150,583,1,-,-,BD,-,16,116,0,1,13,6,147,3,0
+311,1,BBMP  (M  Corp.  + OG) (Part),Siddarthanagara  Slum,No,68,282,0.6,-,-,BD,-,7,51,0,0,6,3,67,1,0
+312,1,BBMP  (M Corp. + OG) (Part),Keshavanagara  Slum,No,25,110,1.2,-,-,BD,-,3,16,0,0,2,1,25,1,0
+313,1,BBMP  (M Corp. + OG) (Part),Nagammanagara  Slum,Yes,281,1231,1.4,-,-,BD,-,29,222,0,1,25,11,276,3,0
+314,1,BBMP  (M Corp. + OG) (Part),Thammaiah Park Slum,No,40,141,1,-,-,BD,-,4,28,0,0,4,2,39,1,0
+315,1,BBMP  (M Corp. + OG) (Part),Sarkarioni Slum,No,222,976,0.6,-,-,BD,-,23,174,0,1,20,9,218,3,0
+316,1,BBMP  (M Corp. + OG) (Part),Hanumantharayana Palya Slum,No,143,623,1.2,-,-,BD,-,15,110,0,1,13,5,140,3,0
+317,1,BBMP  (M  Corp.  + OG) (Part),Mallathalli Slum,No,157,629,1.4,-,-,BD,-,16,122,0,1,14,6,154,3,0
+318,1,BBMP  (M  Corp.  + OG) (Part),Kengunte Slum,No,1124,4469,1,-,-,BD,-,117,898,0,6,99,43,1103,8,0
+319,1,BBMP  (M  Corp.  + OG) (Part),Mutharayanagar Slum,No,382,1352,1,-,-,BD,-,40,302,0,2,34,15,375,5,0
+320,1,BBMP  (M Corp. + OG) (Part),Kebbehalla Slum,No,348,1420,1.4,-,-,BD,-,36,275,0,2,31,13,342,5,0
+321,1,BBMP  (M Corp. + OG) (Part),Ullal Ambedkarnagar,No,2050,8596,1,-,-,BD,-,213,1642,0,10,181,79,2012,10,0
+322,1,BBMP  (M Corp. + OG) (Part),Mariyappanapallya,No,155,594,1,-,-,BD,-,16,120,0,1,14,6,152,3,0
+323,1,BBMP  (M Corp. + OG) (Part),Bhuvaneshwari Nagara(2Nd Stage),No,145,580,1.5,-,-,BD,-,15,112,0,1,13,6,142,3,0
+324,1,BBMP  (M  Corp.  + OG) (Part),Gandhi Nagara,Yes,180,767,1.3,-,-,BD,-,19,140,0,1,16,7,177,3,0
+325,1,BBMP  (M Corp. + OG) (Part),Vaddarapalya,No,125,525,1.5,-,-,BD,-,13,96,0,1,11,5,123,3,0
+326,1,BBMP  (M Corp. + OG) (Part),Gangondanahalli Slum,Yes,918,3824,1.6,-,-,BD,-,96,732,0,5,81,35,901,5,0
+327,1,BBMP  (M Corp. + OG) (Part),Indira Ghandhi Slum,Yes,138,542,1.5,-,-,BD,-,14,107,0,1,12,5,135,3,0
+328,1,BBMP  (M Corp. + OG) (Part),Maruthi Slum,Yes,140,731,0.5,-,-,BD,-,15,108,0,1,12,5,137,3,0
+329,1,BBMP  (M  Corp.  + OG) (Part),Venkateshwara Slum,Yes,520,2161,1,-,-,BD,-,54,413,0,3,46,20,510,5,0
+330,1,BBMP  (M  Corp.  + OG) (Part),Handigudishalu Slum,Yes,39,166,0.4,-,-,BD,-,4,32,0,0,3,1,38,1,0
+331,1,BBMP  (M  Corp.  + OG) (Part),Farooquiya Nagar Slum,Yes,233,1196,0.6,-,-,BD,-,24,183,0,1,21,9,229,3,0
+332,1,BBMP  (M  Corp.  +  OG)  (Part),Jjr Nagar South Oblesh Colony () Slum,Yes,98,501,1.2,-,-,BD,-,10,75,0,0,9,4,96,1,0
+333,1,BBMP  (M  Corp.  +  OG)  (Part),Jjr Nagar South Oblesh Colony () Slum,Yes,128,662,1.4,-,-,BD,-,13,99,0,1,11,5,126,3,0
+334,1,BBMP  (M  Corp.  +  OG)  (Part),Jjr Nagar South Oblesh Colony () Slum,Yes,127,677,1,-,-,BD,-,13,98,0,1,11,5,125,3,0
+335,1,BBMP  (M  Corp.  + OG) (Part),Farooquiya Nagar Slum,Yes,421,2309,1,-,-,BD,-,44,334,0,2,37,16,413,5,0
+336,1,BBMP  (M Corp. + OG) (Part),Farooquia Nagar Slum,Yes,71,424,0.5,-,-,BD,-,7,58,0,0,6,3,70,1,0
+337,1,BBMP  (M  Corp.  + OG) (Part),Janatha Colony Slum,Yes,535,2340,0.6,-,-,BD,-,56,425,0,3,47,21,525,5,0
+338,1,BBMP  (M  Corp.  + OG) (Part),Mominpura Slum,Yes,423,2253,0.5,-,-,BD,-,44,336,0,2,37,16,415,5,0
+339,1,BBMP  (M  Corp.  + OG) (Part),Janatha Colony Slum,Yes,505,2272,0.6,-,-,BD,-,53,400,0,3,45,19,496,5,0
+340,1,BBMP  (M  Corp.  + OG) (Part),Venkata Swamy Garden Slum,Yes,846,4337,0.8,-,-,BD,-,88,675,0,4,75,32,830,5,0
+341,1,BBMP  (M Corp. + OG) (Part),V S Garden Slum,Yes,43,191,1,-,-,BD,-,4,35,0,0,4,2,42,1,0
+342,1,BBMP  (M  Corp.  + OG) (Part),Venkata Swamy Garden Slum,Yes,428,2096,1,-,-,BD,-,45,339,0,2,38,16,420,5,0
+343,1,BBMP  (M Corp. + OG) (Part),Rayapuram Slum,Yes,85,412,1.5,-,-,BD,-,9,64,0,0,8,3,83,1,0
+344,1,BBMP  (M  Corp.  + OG) (Part),J.J. Ram Nagar North Slum,Yes,284,1377,0.5,-,-,BD,-,30,224,0,1,25,11,279,3,0
+345,1,BBMP  (M  Corp.  + OG) (Part),Rayapura Slum,Yes,650,2912,1,-,-,BD,-,68,518,0,3,57,25,638,5,0
+346,1,BBMP  (M  Corp.  + OG) (Part),Anjanappa Garden Slum,Yes,687,3465,0.6,-,-,BD,-,72,547,0,3,61,26,674,5,0
+347,1,BBMP  (M  Corp.  + OG) (Part),Flower Garden Slum,Yes,485,2351,1.2,-,-,BD,-,51,385,0,2,43,19,476,5,0
+348,1,BBMP  (M  Corp.  + OG) (Part),Bhangicolony Slum,Yes,239,1156,1.4,-,-,BD,-,25,188,0,1,21,9,235,3,0
+349,1,BBMP  (M Corp. + OG) (Part),Flower Garden Slum,Yes,126,644,1,-,-,BD,-,13,97,0,1,11,5,124,3,0
+350,1,BBMP  (M Corp. + OG) (Part),Anjanappa Garden A And B Lane Slum,Yes,244,1316,1,-,-,BD,-,25,192,0,1,22,9,240,3,0
+351,1,BBMP  (M  Corp.  + OG) (Part),Anjanappa Garden C Lane Slum,Yes,309,1653,1.4,-,-,BD,-,32,244,0,2,27,12,303,5,0
+352,1,BBMP  (M  Corp.  + OG) (Part),Jai Bheemanagar Slum,Yes,335,1806,1,-,-,BD,-,35,264,0,2,30,13,329,5,0
+353,1,BBMP  (M Corp. + OG) (Part),Giripuram Slum,Yes,137,659,1,-,-,BD,-,14,106,0,1,12,5,134,3,0
+354,1,BBMP  (M  Corp.  + OG) (Part),Bhakshi Garden Slum,No,611,2815,1.5,-,-,BD,-,64,486,0,3,54,23,600,5,0
+355,1,BBMP  (M Corp. + OG) (Part),Ananadpuram Slum,Yes,80,467,1.3,-,-,BD,-,8,61,0,0,7,3,79,1,0
+356,1,BBMP  (M  Corp.  + OG) (Part),Anandpuram Slum,Yes,474,2700,1.5,-,-,BD,-,49,377,0,2,42,18,465,5,0
+357,1,BBMP  (M  Corp.  + OG) (Part),Bhakshi Garden Slum,No,400,1840,1.6,-,-,BD,-,42,317,0,2,35,15,393,5,0
+358,1,BBMP  (M Corp. + OG) (Part),Peer Boundary Slum,Yes,70,308,1.5,-,-,BD,-,7,57,0,0,6,3,69,1,0
+359,1,BBMP  (M Corp. + OG) (Part),Bhakshi Garden Slum,No,121,536,0.5,-,-,BD,-,13,92,0,1,11,5,119,3,0
+360,1,BBMP  (M Corp. + OG) (Part),Ganeshagudi Slum,No,71,445,1,-,-,BD,-,7,58,0,0,6,3,70,1,0
+361,1,BBMP  (M Corp. + OG) (Part),Bhakshi Garden Slum,No,184,945,0.4,-,-,BD,-,19,144,0,1,16,7,181,3,0
+362,1,BBMP  (M  Corp.  + OG) (Part),Anandpuram Slum,Yes,299,1526,0.6,-,-,BD,-,31,236,0,2,26,11,293,3,0
+363,1,BBMP  (M  Corp.  + OG) (Part),Venkatarama Nagar Slum,No,520,1989,1.2,-,-,BD,-,54,413,0,3,46,20,510,5,0
+364,1,BBMP  (M  Corp.  + OG) (Part),Aswath Katte Bande Gudisalu  Slum,No,705,3252,1.4,-,-,BD,-,73,562,0,4,62,27,692,5,0
+365,1,BBMP  (M Corp. + OG) (Part),Rk Mutt Slum,Yes,65,320,1,-,-,BD,-,7,48,0,0,6,2,64,1,0
+366,1,BBMP  (M Corp. + OG) (Part),Shambupalya Slum,Yes,97,416,0.6,-,-,BD,-,10,74,0,0,9,4,95,1,0
+367,1,BBMP  (M Corp. + OG) (Part),Chikkanna Garden Slum,Yes,112,538,0.8,-,-,BD,-,12,85,0,1,10,4,110,3,0
+368,1,BBMP  (M Corp. + OG) (Part),Hombegowda Slum,Yes,438,2027,1,-,-,BD,-,46,347,0,2,39,17,430,5,0
+369,1,BBMP  (M  Corp.  + OG) (Part),Dayanada Slum,Yes,386,1966,1,-,-,BD,-,40,306,0,2,34,15,379,5,0
+370,1,BBMP  (M  Corp.  + OG) (Part),Km Colony Slum,Yes,425,1980,1.5,-,-,BD,-,44,337,0,2,38,16,417,5,0
+371,1,BBMP  (M  Corp.  + OG) (Part),Guttepalya Slum,Yes,299,1238,0.5,-,-,BD,-,31,236,0,2,26,11,293,3,0
+372,1,BBMP  (M Corp. + OG) (Part),Someshwara Slum,Yes,37,156,1,-,-,BD,-,4,30,0,0,3,1,36,1,0
+373,1,BBMP  (M  Corp.  + OG) (Part),Dayanada Slum,Yes,1099,5233,0.6,-,-,BD,-,114,878,0,6,97,42,1079,8,0
+374,1,BBMP  (M Corp. + OG) (Part),Sambhupalya Slum,Yes,69,290,1.2,-,-,BD,-,7,52,0,0,6,3,68,1,0
+375,1,BBMP  (M Corp. + OG) (Part),Rk Mutt (Kg Nagar),Yes,176,823,1.4,-,-,BD,-,18,137,0,1,16,7,173,3,0
+376,1,BBMP  (M Corp. + OG) (Part),Someshwara Slum,Yes,185,967,1,-,-,BD,-,19,145,0,1,16,7,182,3,0
+377,1,BBMP  (M Corp. + OG) (Part),Someshwara Quarters Slum,Yes,192,943,1,-,-,BD,-,20,150,0,1,17,7,188,3,0
+378,1,BBMP  (M Corp. + OG) (Part),Raghavendra Slum,Yes,158,633,1.4,-,-,BD,-,16,123,0,1,14,6,155,3,0
+379,1,BBMP  (M  Corp.  + OG) (Part),Siddapura Slum,Yes,36,134,1,-,-,BD,-,4,25,0,0,3,1,35,1,0
+380,1,BBMP  (M Corp. + OG) (Part),Murali Slum,Yes,216,965,1,-,-,BD,-,22,170,0,1,19,8,212,3,0
+381,1,BBMP  (M Corp. + OG) (Part),Shankarappa Garden Slum,Yes,67,311,1.5,-,-,BD,-,7,50,0,0,6,3,66,1,0
+382,1,BBMP  (M Corp. + OG) (Part),Chikkanna Garden,Yes,200,974,1.3,-,-,BD,-,21,156,0,1,18,8,196,3,0
+383,1,BBMP  (M  Corp.  + OG) (Part),Narayanpura Slum,No,264,1060,1.5,-,-,BD,-,27,209,0,1,23,10,259,3,0
+384,1,BBMP  (M Corp. + OG) (Part),Srirama Slum,Yes,44,196,1.6,-,-,BD,-,5,31,0,0,4,2,43,1,0
+385,1,BBMP  (M  Corp.  + OG) (Part),Brindavan Slum,Yes,132,696,1.5,-,-,BD,-,14,101,0,1,12,5,130,3,0
+386,1,BBMP  (M  Corp.  + OG) (Part),Bada Makkan Slum,Yes,249,1149,0.5,-,-,BD,-,26,196,0,1,22,10,244,3,0
+387,1,BBMP  (M Corp. + OG) (Part),Narayanpura Slum,No,63,265,1,-,-,BD,-,7,46,0,0,6,2,62,1,0
+388,1,BBMP  (M Corp. + OG) (Part),Anjaneya Slum,Yes,94,381,0.4,-,-,BD,-,10,72,0,0,8,4,92,1,0
+389,1,BBMP  (M  Corp.  + OG) (Part),Bada Makkan Slum,Yes,279,1419,0.6,-,-,BD,-,29,220,0,1,25,11,274,3,0
+390,1,BBMP  (M Corp. + OG) (Part),Anjaneya Slum,Yes,89,385,1.2,-,-,BD,-,9,68,0,0,8,3,87,1,0
+391,1,BBMP  (M  Corp.  + OG) (Part),Sr Nagar Slum,Yes,468,2374,1.4,-,-,BD,-,49,372,0,2,41,18,459,5,0
+392,1,BBMP  (M  Corp.  + OG) (Part),Chandrappanagar Slum,Yes,249,1292,1,-,-,BD,-,26,196,0,1,22,10,244,3,0
+393,1,BBMP  (M  Corp.  + OG) (Part),Mahalingeshwara Slum,Yes,896,3889,0.6,-,-,BD,-,93,715,0,5,79,34,879,5,0
+394,1,BBMP  (M Corp. + OG) (Part),Rajendranagar Slum,Yes,2971,13489,0.8,-,-,BD,-,309,2381,0,15,262,114,2916,10,0
+395,1,BBMP  (M  Corp.  + OG) (Part),Indira Ghandhi Slum,Yes,379,1583,1,-,-,BD,-,39,301,0,2,33,15,372,5,0
+396,1,BBMP  (M Corp. + OG) (Part),Venkatappa Colony Slum,No,75,389,1,-,-,BD,-,8,56,0,0,7,3,74,1,0
+397,1,BBMP  (M Corp. + OG) (Part),Ambedkar Colony Slum,No,149,615,1.5,-,-,BD,-,16,115,0,1,13,6,146,3,0
+398,1,BBMP  (M  Corp.  + OG) (Part),Panattur Dinne Slum,No,311,1298,0.5,-,-,BD,-,32,246,0,2,27,12,305,5,0
+399,1,BBMP  (M  Corp.  + OG) (Part),Devara Bisanahalli Slum,No,336,1242,1,-,-,BD,-,35,265,0,2,30,13,330,5,0
+400,1,BBMP  (M  Corp.  + OG) (Part),Chellaghatta Slum,Yes,203,699,0.6,-,-,BD,-,21,159,0,1,18,8,199,3,0
+401,1,BBMP  (M Corp. + OG) (Part),Belur Nagasandra Slum,No,181,590,1.2,-,-,BD,-,19,141,0,1,16,7,178,3,0
+402,1,BBMP  (M Corp. +  OG)  (Part),Bellur Ambedakar Nagar Slum,No,71,256,1.4,-,-,BD,-,7,58,0,0,6,3,70,1,0
+403,1,BBMP  (M Corp. + OG) (Part),Gowtham Nagar Slum,No,138,587,1,-,-,BD,-,14,107,0,1,12,5,135,3,0
+404,1,BBMP  (M Corp. +  OG)  (Part),Bellur Ambedakar Nagar Slum,No,233,917,1,-,-,BD,-,24,183,0,1,21,9,229,3,0
+405,1,BBMP  (M  Corp.  + OG) (Part),Haralur Slum,No,181,697,1.4,-,-,BD,-,19,141,0,1,16,7,178,3,0
+406,1,BBMP  (M Corp. + OG) (Part),Kasavanahalli Bhavi Colony Slum,No,138,626,1,-,-,BD,-,14,107,0,1,12,5,135,3,0
+407,1,BBMP  (M  Corp.  + OG) (Part),Jummasandra Colony,No,331,1176,1,-,-,BD,-,34,262,0,2,29,13,325,5,0
+408,1,BBMP  (M  Corp.  + OG) (Part),Bisleri Slum,No,219,886,1.5,-,-,BD,-,23,172,0,1,19,8,215,3,0
+409,1,BBMP  (M Corp. + OG) (Part),Jogi Colony Slum,Yes,109,538,1.3,-,-,BD,-,11,83,0,1,10,4,107,3,0
+410,1,BBMP  (M Corp. + OG) (Part),Ak Colony Slum,Yes,211,772,1.5,-,-,BD,-,22,165,0,1,19,8,207,3,0
+411,1,BBMP  (M  Corp.  + OG) (Part),Bhovi Colony Slum,Yes,425,1694,1.6,-,-,BD,-,44,337,0,2,38,16,417,5,0
+412,1,BBMP  (M Corp. + OG) (Part),Ak Colony Slum,Yes,236,864,1.5,-,-,BD,-,25,185,0,1,21,9,232,3,0
+413,1,BBMP  (M Corp. + OG) (Part),Bhovi Colony Slum,Yes,60,236,0.5,-,-,BD,-,6,49,0,0,5,2,59,1,0
+414,1,BBMP  (M  Corp.  + OG) (Part),Sds Sanitorium Slum,Yes,502,2038,1,-,-,BD,-,52,399,0,3,44,19,493,5,0
+415,1,BBMP  (M Corp. + OG) (Part),Gundappa Slum,Yes,130,559,0.4,-,-,BD,-,14,100,0,1,11,5,128,3,0
+416,1,BBMP  (M Corp. + OG) (Part),Khb Quarters Slum,Yes,102,560,0.6,-,-,BD,-,11,77,0,1,9,4,100,3,0
+417,1,BBMP  (M Corp. + OG) (Part),Bhavani Nagar Slum,Yes,178,971,1.2,-,-,BD,-,19,138,0,1,16,7,175,3,0
+418,1,BBMP  (M  Corp.  + OG) (Part),Muneshwara Block Slum,Yes,607,2607,1.4,-,-,BD,-,63,483,0,3,54,23,596,5,0
+419,1,BBMP  (M  Corp.  + OG) (Part),Sajaynagar Slum / Narasimiah Compound,Yes,127,598,1,-,-,BD,-,13,98,0,1,11,5,125,3,0
+420,1,BBMP  (M Corp. + OG) (Part),Veerannagudde Slum,Yes,212,899,0.6,-,-,BD,-,22,166,0,1,19,8,208,3,0
+421,1,BBMP  (M Corp. + OG) (Part),Chamundinagar Slum,Yes,297,1108,0.8,-,-,BD,-,31,234,0,2,26,11,292,3,0
+422,1,BBMP  (M Corp. + OG) (Part),Veerannagudde Slum,Yes,223,993,1,-,-,BD,-,23,175,0,1,20,9,219,3,0
+423,1,BBMP  (M  Corp.  + OG) (Part),Ring Road Slulm,Yes,322,1227,1,-,-,BD,-,34,254,0,2,28,12,316,5,0
+424,1,BBMP  (M  Corp.  + OG) (Part),Keb Slum,Yes,311,1363,1.5,-,-,BD,-,32,246,0,2,27,12,305,5,0
+425,1,BBMP  (M Corp. + OG) (Part),Veerannagudde Slum,Yes,111,458,0.5,-,-,BD,-,12,84,0,1,10,4,109,3,0
+426,1,BBMP  (M  Corp.  + OG) (Part),Gandhi Nagara ( Kengeri),No,314,1375,1,-,-,BD,-,33,247,0,2,28,12,308,5,0
+427,1,BBMP  (M  Corp.  + OG) (Part),Arundati Nagar (Kengeri),No,439,1798,0.6,-,-,BD,-,46,348,0,2,39,17,431,5,0
+428,1,BBMP  (M Corp. + OG) (Part),Ambedkar Colony (Kenkeri),No,128,526,1.2,-,-,BD,-,13,99,0,1,11,5,126,3,0
+429,1,BBMP  (M  Corp.  + OG) (Part),Shivanagara Colony,No,255,1042,1.4,-,-,BD,-,27,200,0,1,23,10,250,3,0
+430,1,BBMP  (M Corp. + OG) (Part),Kasthuramma Slum,Yes,153,588,1,-,-,BD,-,16,118,0,1,14,6,150,3,0
+431,1,BBMP  (M Corp. + OG) (Part),Almajyothi Nagar,No,61,295,1,-,-,BD,-,6,50,0,0,5,2,60,1,0
+432,1,BBMP  (M  Corp.  + OG) (Part),Bangarappa Nagar,No,993,3758,1.4,-,-,BD,-,103,793,0,5,88,38,975,5,0
+433,1,BBMP  (M  Corp.  + OG)  (Part),Channasandra,No,519,2075,1,-,-,BD,-,54,412,0,3,46,20,509,5,0
+434,1,BBMP  (M Corp. + OG) (Part),Halagevaderahalli,No,621,2610,1,-,-,BD,-,65,494,0,3,55,24,610,5,0
+435,1,BBMP  (M  Corp.  + OG) (Part),Tr Shammanna Slum,Yes,565,2307,1.5,-,-,BD,-,59,449,0,3,50,22,555,5,0
+436,1,BBMP  (M  Corp.  + OG) (Part),Siddareddy Slum,No,164,578,1.3,-,-,BD,-,17,128,0,1,14,6,161,3,0
+437,1,BBMP  (M  Corp.  + OG) (Part),Manjunatha Nagara Colony Slum,Yes,1915,7458,1.5,-,-,BD,-,199,1533,0,10,169,73,1880,8,0
+438,1,BBMP  (M  Corp.  + OG) (Part),Cauvery Nagar Slum,No,3053,13192,1.6,-,-,BD,-,318,2446,0,15,270,117,2997,10,0
+439,1,BBMP  (M Corp. + OG) (Part),Nakkalbande Slum,Yes,506,2080,1.5,-,-,BD,-,53,401,0,3,45,19,497,5,0
+440,1,BBMP  (M  Corp.  + OG) (Part),Kateramma Slum,Yes,62,357,0.5,-,-,BD,-,6,51,0,0,5,2,61,1,0
+441,1,BBMP  (M  Corp.  + OG) (Part),Urs Colony Slum,Yes,500,2368,1,-,-,BD,-,52,397,0,3,44,19,491,5,0
+442,1,BBMP  (M Corp. + OG) (Part),Indragandhi Slum,Yes,118,553,0.4,-,-,BD,-,12,91,0,1,10,5,116,3,0
+443,1,BBMP  (M Corp. + OG) (Part),Puttainapalya Slum,Yes,127,534,0.6,-,-,BD,-,13,98,0,1,11,5,125,3,0
+444,1,BBMP  (M  Corp.  + OG) (Part),Corporation Colony Slum,Yes,1325,6094,1.2,-,-,BD,-,138,1059,0,7,117,51,1301,8,0
+445,1,BBMP  (M  Corp.  + OG) (Part),Ward No. 171,Yes,319,1525,1.4,-,-,BD,-,33,252,0,2,28,12,313,5,0
+446,1,BBMP  (M Corp. + OG) (Part),Gunduthopu Slum,No,97,410,1,-,-,BD,-,10,74,0,0,9,4,95,1,0
+447,1,BBMP  (M  Corp.  + OG) (Part),Ambedkar Slum,Yes,89,412,0.5,-,-,BD,-,9,68,0,0,8,3,87,1,0
+448,1,BBMP  (M  Corp.  + OG) (Part),Madduramma Colony Slum,Yes,320,1521,1,-,-,BD,-,33,253,0,2,28,12,314,5,0
+449,1,BBMP  (M  Corp.  + OG) (Part),Gulbarga Colony (Rupena Agrahara),No,401,1655,0.4,-,-,BD,-,42,318,0,2,35,15,394,5,0
+450,1,BBMP  (M Corp. + OG) (Part),Dinne Mane (Rupena Agrahara),No,179,951,0.6,-,-,BD,-,19,139,0,1,16,7,176,3,0
+451,1,BBMP  (M Corp. + OG) (Part),Someshwara Slum,No,376,1598,1.2,-,-,BD,-,39,298,0,2,33,14,369,5,0
+452,1,BBMP  (M  Corp.  + OG) (Part),Jd Mara Slum,No,431,1704,1.4,-,-,BD,-,45,342,0,2,38,17,423,5,0
+453,1,BBMP  (M  Corp.  + OG) (Part),Ksrtc Slum,Yes,705,2994,1,-,-,BD,-,73,562,0,4,62,27,692,5,0
+454,1,BBMP  (M Corp. +  OG)  (Part),Rajeshwari Nagar Slum,Yes,244,921,0.6,-,-,BD,-,25,192,0,1,22,9,240,3,0
+455,1,BBMP  (M Corp. + OG) (Part),Yarabnagar Slum,Yes,1094,5374,0.8,-,-,BD,-,114,873,0,6,97,42,1074,8,0
+456,1,BBMP  (M Corp. + OG) (Part),Vijayacollege Slum,Yes,406,1881,1,-,-,BD,-,42,322,0,2,36,16,399,5,0
+457,1,BBMP  (M  Corp.  + OG) (Part),Neharu Colony Slum,Yes,229,1132,1,-,-,BD,-,24,180,0,1,20,9,225,3,0
+458,1,BBMP  (M Corp. + OG) (Part),Bhavaninagara Slum,Yes,665,2779,1.5,-,-,BD,-,69,530,0,3,59,26,653,5,0
+459,1,BBMP  (M Corp. + OG) (Part),Vijayacollege Slum,Yes,94,415,0.5,-,-,BD,-,10,72,0,0,8,4,92,1,0
+460,1,BBMP  (M Corp. + OG) (Part),Yarabnagar Slum,Yes,610,3061,1,-,-,BD,-,64,485,0,3,54,23,599,5,0
+461,1,BBMP  (M Corp. + OG) (Part),Maramma Temple Teachers Layout Slum,Yes,126,607,0.6,-,-,BD,-,13,97,0,1,11,5,124,3,0
+462,1,BBMP  (M Corp. + OG) (Part),Bhavaninagara Slum,Yes,491,2039,1.2,-,-,BD,-,51,391,0,2,43,19,482,5,0
+463,1,BBMP  (M  Corp.  + OG) (Part),Sarbundepalya Slum,Yes,397,1797,1.4,-,-,BD,-,41,315,0,2,35,15,390,5,0
+464,1,BBMP  (M  Corp.  + OG) (Part),Haricolony Slum,Yes,528,2391,1,-,-,BD,-,55,419,0,3,47,20,518,5,0
+465,1,BBMP  (M Corp. + OG) (Part),Banashankari Slum,Yes,159,832,1,-,-,BD,-,17,123,0,1,14,6,156,3,0
+466,1,BBMP  (M  Corp.  + OG) (Part),Sarbundepalya Slum,Yes,489,2254,1.4,-,-,BD,-,51,389,0,2,43,19,480,5,0
+467,1,BBMP  (M Corp. + OG) (Part),Sarbandepalya Slum,Yes,118,522,1.5,-,-,BD,-,12,91,0,1,10,5,116,3,0
+468,1,BBMP  (M Corp. + OG) (Part),Sarbundepalya Slum,Yes,112,495,1.6,-,-,BD,-,12,85,0,1,10,4,110,3,0
+469,1,BBMP  (M  Corp.  + OG) (Part),Pragathipura Slum,Yes,1723,6982,1.5,-,-,BD,-,179,1379,0,9,152,66,1691,8,0
+470,1,BBMP  (M Corp. + OG) (Part),Ummarbhag Slum,Yes,470,2207,0.5,-,-,BD,-,49,373,0,2,42,18,461,5,0
+471,1,BBMP  (M  Corp.  + OG) (Part),Illeyasnagar Slum,Yes,144,786,1,-,-,BD,-,15,111,0,1,13,6,141,3,0
+472,1,BBMP  (M Corp. + OG) (Part),Vaishnavi Nagar Slum,Yes,161,665,0.4,-,-,BD,-,17,125,0,1,14,6,158,3,0
+473,1,BBMP  (M Corp. + OG) (Part),Ks Layout Slum,Yes,171,725,0.6,-,-,BD,-,18,133,0,1,15,7,168,3,0
+474,1,BBMP  (M Corp. + OG) (Part),Sunnadagudu Slum,No,92,390,1.2,-,-,BD,-,10,70,0,0,8,4,90,1,0
+475,1,BBMP  (M  Corp.  + OG) (Part),Ramachandrapura,No,162,718,1.4,-,-,BD,-,17,126,0,1,14,6,159,3,0
+476,1,BBMP  (M  Corp.  + OG) (Part),Bhuwaneswarinagar Slum,No,575,2315,1,-,-,BD,-,60,457,0,3,51,22,564,5,0
+477,1,BBMP  (M  Corp.  + OG)  (Part),Maruthinagar,No,519,1839,0.5,-,-,BD,-,54,412,0,3,46,20,509,5,0
+478,1,BBMP  (M Corp. + OG) (Part),Sriramanagar,No,311,1238,1,-,-,BD,-,32,246,0,2,27,12,305,5,0
+479,1,BBMP  (M  Corp.  + OG) (Part),Chandranagar Farm Colony,No,649,2635,0.4,-,-,BD,-,68,517,0,3,57,25,637,5,0
+480,1,BBMP  (M  Corp.  + OG) (Part),Ambedkar Colony Slum,No,751,3012,0.6,-,-,BD,-,78,599,0,4,66,29,737,5,0
+481,1,BBMP  (M Corp. + OG) (Part),Ambedkarnagar Slum,No,315,1498,1.2,-,-,BD,-,33,248,0,2,28,12,309,5,0
+482,1,BBMP  (M Corp. + OG) (Part),Venugopalnagar,No,428,1758,1.4,-,-,BD,-,45,339,0,2,38,16,420,5,0
+483,1,BBMP  (M Corp. + OG) (Part),Palliganahalli,No,2617,10376,1,-,-,BD,-,272,2097,0,13,231,100,2569,10,0
+484,1,BBMP  (M Corp. + OG) (Part),Vasanthapura,No,736,2872,0.3,-,-,BD,-,77,586,0,4,65,28,722,5,0
+485,1,BBMP  (M Corp. + OG) (Part),Ayyappanagar,No,236,967,0.9,-,-,BD,-,25,185,0,1,21,9,232,3,0
